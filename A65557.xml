@@ -1,0 +1,998 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scripture authentick and faith certain a discourse which may serve for an answer to divers late aspersions on the integrity of originals and validity of our modern translations / by Edward Lord Bishop of Cork and Rosse.</title>
+            <author>Wettenhall, Edward, 1636-1713.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 132 KB of XML-encoded text transcribed from 84 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65557</idno>
+            <idno type="STC">Wing W1514</idno>
+            <idno type="STC">ESTC R23965</idno>
+            <idno type="EEBO-CITATION">07933834</idno>
+            <idno type="OCLC">ocm 07933834</idno>
+            <idno type="VID">40530</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65557)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40530)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1219:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Scripture authentick and faith certain a discourse which may serve for an answer to divers late aspersions on the integrity of originals and validity of our modern translations / by Edward Lord Bishop of Cork and Rosse.</title>
+                  <author>Wettenhall, Edward, 1636-1713.</author>
+               </titleStmt>
+               <extent>[13], 152 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for H. Faithorne and J. Kersey,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1686.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. [12] (1st grouping)</note>
+                  <note>"Appendix": p. 65-152.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Evidences, authority, etc.</term>
+               <term>Bible --  Versions.</term>
+               <term>Language question in the church --  Great Britain.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-05</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2012-05</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40530:1"/>
+            <pb facs="tcp:40530:1" rendition="simple:additions"/>
+            <p>SCRIPTURE AUTHENTICK, AND <hi>Faith certain.</hi>
+            </p>
+            <p>A DISCOURSE, Which may ſerve for an <hi>Anſwer</hi> to divers late Aſperſions on the Integrity of <hi>Originals,</hi> and Validity of our <hi>modern Tranſlations.</hi>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Joh. X. 35.</p>
+            <p>By <hi>EDWARD</hi> Lord Biſhop of <hi>CORK</hi> and <hi>ROSSE.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>H. Faithorne,</hi> and <hi>J. Kerſey,</hi> at the <hi>Roſe</hi> in S. <hi>Paul</hi>'s Church-yard, 1686.</p>
+         </div>
+         <div type="license">
+            <pb facs="tcp:40530:2" rendition="simple:additions"/>
+            <p>IMPRIMATUR. Jo. Battely, <hi>RR<hi rend="sup">mo</hi> P. D<hi rend="sup">no</hi>
+               </hi> Wilhelmo <hi>Archiep. Cant. à Sacris Domeſticis.</hi>
+            </p>
+            <closer>
+               <dateline>Ex Aedib. <hi>Lamb.</hi> 
+                  <date>Sept. 12. 1685</date>.</dateline>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:40530:2" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:40530:3" rendition="simple:additions"/>
+            <pb facs="tcp:40530:3"/>
+            <head>To His GRACE The DUKE of ORMOND.</head>
+            <opener>
+               <salute>May it pleaſe Your GRACE,</salute>
+            </opener>
+            <p>I Have preſumed to In<g ref="char:EOLhyphen"/>title Your Grace to this ſmall Piece, not out of con<g ref="char:EOLhyphen"/>ceit of its Merits, but ſenſe of mine own Obligations. People uſe to pay their debts as they are able; and when All they can do is in effect Nothing, to have publickly
+<pb facs="tcp:40530:4"/> acknowledged themſelves In<g ref="char:EOLhyphen"/>ſolvent, is, to have aimed at being Juſt.</p>
+            <p>May then Your GRACE pleaſe to Accept of my having intended well, both in the Book and Dedication: And to believe amongſt the Numerous Votaries to Your Illuſtrious Self and Family, he who brings only this mite of Gratitude, has as much Zeal to approve his full Duty, and as induſtri<g ref="char:EOLhyphen"/>ouſly watches opportuni<g ref="char:EOLhyphen"/>ty to do ſo, as any man li<g ref="char:EOLhyphen"/>ving.</p>
+            <div type="letter">
+               <pb facs="tcp:40530:4"/>
+               <opener>
+                  <salute>MY LORD,</salute>
+               </opener>
+               <p>I ſhall never fail daily, till Your GRACE ſhall be above ſuch Services, to of<g ref="char:EOLhyphen"/>fer up to that God, whom You have imitated in <hi>hum<g ref="char:EOLhyphen"/>bling Your ſelf</hi> to <hi>raiſe the poor out of the duſt,</hi> my moſt cordial Supplications, for the encreaſe of Your Glo<g ref="char:EOLhyphen"/>ries and Felicities. The Su<g ref="char:EOLhyphen"/>preme Lord, the <hi>Maſter of the whole Family in Heaven and in Earth,</hi> will repay, what his poor Menials can<g ref="char:EOLhyphen"/>not, <hi>all the Good</hi> Your GRACE
+<pb facs="tcp:40530:5"/> 
+                  <hi>has done to his Houſe,</hi> and therein, to the unworthieſt of his Vaſſals,</p>
+            </div>
+            <closer>
+               <signed>YOUR GRACES <hi>Ever Bounden Orator and Servant, E. Cork</hi> and <hi>Roſſe.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:40530:5"/>
+            <head>THE PREFACE.</head>
+            <p>WHILE the late At<g ref="char:EOLhyphen"/>tempts made on Scri<g ref="char:EOLhyphen"/>pture by two or three Perſons, of ſome Learning, but too much Leiſure, remaine<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in the Lan<g ref="char:EOLhyphen"/>guage wherein they were written, I hoped, that for the main, they would only be read by men of Judg<g ref="char:EOLhyphen"/>ment, paſt the danger of a ſhock; or at worſt by ſome young Students in the <g ref="char:V">Ʋ</g>niverſities, where the Pro<g ref="char:EOLhyphen"/>found Judgment and Vigilance of thoſe, who preſide, would ſoon ſtifle any miſchief that could pro<g ref="char:EOLhyphen"/>ceed from them. But when they began to fly about in Engliſh, and
+<pb facs="tcp:40530:6"/> that even in theſe remoter parts, into the hands of all ſorts, conſider<g ref="char:EOLhyphen"/>ing how greedily moſt Men catch at Novelties, what Patience the moſt curious and delicate Tempers have for Diſcourſes which pretend to Re<g ref="char:EOLhyphen"/>lax the Obligations that ſome Prieſts ſay, lye on Mankind; and withal how great the Number of thoſe, who are, or are ready to be, Tainted, every where is, I could no longer totally temperate either Tongue or Pen.</p>
+            <p>I thought no Wounds to Religion more dangerous, than thoſe which fall on Scripture; for that theſe affect the very Vital Fountains of the common Chriſtianity. Hence ſtill my concernment grew on me, which I deſire may be admitted in excuſe for Expoſing this Remedy, how weak ſoever. It is what for the preſent I had: I ought not to be
+<pb facs="tcp:40530:6"/> wanting to my Duty; and if what I thus have done ſhould prove ef<g ref="char:EOLhyphen"/>fectual to the ſtaying up but one Tot<g ref="char:EOLhyphen"/>tering Perſon, I am aſſured, the Righteous Judge of all will one day acquit me from the Imputation of having been Impertinent, or over-buſie.</p>
+            <p>My extreme Brevity is from De<g ref="char:EOLhyphen"/>ſign, not Sloth. I look upon the Cauſe I defend, as ſuch, which Pleads its ſelf when once heard, nor needs more words than juſt ſuffice to Open it. And beſides, I had a mind to Gratifie thoſe, who cannot obtain from themſelves Leiſure or Patience for peruſing Books on this Subject, were they of length proportionable to thoſe they anſwer.</p>
+            <p>The Time the Reader adven<g ref="char:EOLhyphen"/>tures on this Diſcourſe is very little, the Argument and Concern very great: and he may without Impo<g ref="char:EOLhyphen"/>ſition
+<pb facs="tcp:40530:7"/> on himſelf, conclude, ſuch Perſon muſt write very ill indeed, who pretending to entertain men for an hour on this Theme, ſhould therein give them occaſion to repent of loſs of time.</p>
+            <p>Be pleaſed therefore to reſolve to go through the whole with a placid, free and unbyaſt Mind, and then judge as you liſt. God guide us all, above Error, and our preſent Crepuſcular Knowledge, into Light and Glories Eternal.</p>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:40530:7"/>
+            <head>ERRATA.</head>
+            <p>
+               <hi>PAge 42. line 18. read</hi> falſe.) In—. <hi>Pag. 52. lin. 21. blot out,</hi> ſo abſolutely. <hi>pag. 79. lin. 15. and 21. for,</hi> xxxviii, <hi>read</hi> xlviii. <hi>pag. 105. l. 6. r. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. p. 121. l. 20. r. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. p. 122. l. 1. r. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. p. ibid. l. 7. for</hi> Hezekias <hi>r.</hi> Heſychius. <hi>p. 129. l. 10. r.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb facs="tcp:40530:8"/>
+            <pb n="1" facs="tcp:40530:8"/>
+            <head>SCRIPTURE AUTHENTICK, AND <hi>FAITH CERTAIN.</hi>
+            </head>
+            <div n="1" type="section">
+               <head>§. 1</head>
+               <p> THE moſt Sacred ſort of Oracle, among the <hi>Jews,</hi> was reputed a voice imme<g ref="char:EOLhyphen"/>diately from Heaven; and there<g ref="char:EOLhyphen"/>with was our Saviour own'd ſe<g ref="char:EOLhyphen"/>veral times, and particularly at his Transfiguration on the Mount, <hi>Matt.</hi> xvii. 5. &amp; 2 <hi>Pet.</hi> i. 17. Then and there, <hi>he received from God the Father honour and glory, when there came ſuch a voice to him from the ex<g ref="char:EOLhyphen"/>cellent glory; This is my beloved Son in whom I am well pleaſed.</hi> With which miraculous atteſta<g ref="char:EOLhyphen"/>tion
+<pb n="2" facs="tcp:40530:9"/> the Apoſtle S. <hi>Peter,</hi> there comparing the proofs, that the Scriptures of the Old Teſtament, and eſpecially the Prophetical ones, gave, of his being the Son of God (the Meſſias, or Saviour of the World) affirms, in the <hi>19th</hi> verſe, thoſe Scriptures to be the <hi>ſurer</hi> and ſtronger evidence of the two, and commends the believing <hi>Jews</hi> for <hi>attending</hi> to them, and admitting them as ſuch. And yet ſo bold a vein of Scepticiſm, ſhall I ſay, or Atheiſm, has poſſeſt ſome, who would appear to be of the moſt knowing, if not infalli<g ref="char:EOLhyphen"/>ble part of the Chriſtian world, as that it has been publickly con<g ref="char:EOLhyphen"/>tended; and now of late with freſh earneſtneſs, and new-ſtarted Pleas ſome endeavour to juſtifie, that there is no certainty at all in Scripture, eſpecially in that of
+<pb n="3" facs="tcp:40530:9"/> the Old Teſtament: and all per<g ref="char:EOLhyphen"/>ſons are reproached as fools, illi<g ref="char:EOLhyphen"/>terate and of ſhort judgment, who pin their Faith on Holy Writ. For neither Original, ſay ſome, nor any Verſion whether old or new, cry others, are to be depended upon. The Language in which the Scriptures were written is loſt, the Copies corrupt, the Verſions imperfect, and the neweſt, which ſome believe to be the exacteſt, are really, ſay they, the worſt; ſo that nothing of them muſt be relied upon: but Tradition (that is, what a Party of cunning men have agreed to tell us) is the on<g ref="char:EOLhyphen"/>ly ſure foundation of Faith. On occaſion of theſe importunate in<g ref="char:EOLhyphen"/>ſtances, I crave leave to ſay, after the Apoſtle, and ſpeak a few words for the Old <hi>ſure word of Prophecy,</hi> and I hope I ſhall make
+<pb n="4" facs="tcp:40530:10"/> it out, that <hi>they do well who take heed thereto.</hi>
+               </p>
+            </div>
+            <div n="2" type="section">
+               <head>§. II</head>
+               <p> To which purpoſe I ſhall en<g ref="char:EOLhyphen"/>deavour, 1. <hi>Poſitively</hi> to <hi>eſtabliſh the certainty of the Scripture;</hi> and chiefly of the <hi>Old Teſtament,</hi> or the demonſtrative Evidence it bears. 2. To <hi>anſwer</hi> the new-deviſed, or <hi>freſh-ſtarted Objections,</hi> againſt its certainty. 3. To lay down ſuch <hi>Rules,</hi> by which we may <hi>from Scri<g ref="char:EOLhyphen"/>pture be certain of our Faith.</hi> And if the concluſion be by urging or <hi>adviſing</hi> ſuch <hi>practice</hi> as may moſt naturally comport with the de<g ref="char:EOLhyphen"/>ſign of the Diſcourſe, it may be hoped the pious Readers patience will not be tired in that laſt ſo ſhort Stage.</p>
+            </div>
+            <div n="3" type="section">
+               <head>§. III</head>
+               <p> And Firſt, That the <hi>word of Prophecy is ſure,</hi> or the <hi>Scriptures</hi>
+                  <pb n="5" facs="tcp:40530:10"/> of the <hi>Old Teſtament</hi> a more de<g ref="char:EOLhyphen"/>monſtrative evidence that Chriſt was the <hi>Meſſias,</hi> than was that miraculous voice from Heaven.</p>
+               <p>For a foundation we will take it for granted (what cannot be denyed) that no man of com<g ref="char:EOLhyphen"/>mon reaſon who reads the Old Teſtament, can queſtion, but that theſe things were explicitly, and as good as in terms, foretold; that the <hi>Meſſias</hi> ſhould be <hi>born of a Vir<g ref="char:EOLhyphen"/>gin;</hi> that the <hi>place</hi> of his birth ſhould be <hi>Bethlehem;</hi> the <hi>time,</hi> while the <hi>ſecond Temple</hi> was ſtand<g ref="char:EOLhyphen"/>ing; that he ſhould live a moſt <hi>holy, modeſt, and humble,</hi> but yet a mean and <hi>deſpiſed,</hi> life; that he ſhould make <hi>his ſoul an offering for ſin;</hi> and be <hi>cut off, but not for him<g ref="char:EOLhyphen"/>ſelf;</hi> that he ſhould <hi>riſe</hi> again be<g ref="char:EOLhyphen"/>fore his <hi>body could ſee corruption;</hi> that he ſhould <hi>aſcend into heaven,
+<pb n="6" facs="tcp:40530:11"/> and give gifts to men,</hi> (impower ſundry ſorts of people to ſuper<g ref="char:EOLhyphen"/>natural acts, by a miraculous ef<g ref="char:EOLhyphen"/>fuſion of the Holy Ghoſt;) that ſome time after this, the <hi>City of Jeruſalem</hi> and the <hi>Sanctuary</hi> ſhould be <hi>deſtroyed,</hi> and <hi>deſolations were determined upon them;</hi> the nation of the <hi>Jews</hi> ſhould be diſperſt, and live as vagabonds, and accurſed upon the face of the earth. The Original, and generally all Tran<g ref="char:EOLhyphen"/>ſlations agree in theſe, and ſuch like material Prophecies of the <hi>Meſſias,</hi> as theſe; nor can it be pretended there are ſuch ambi<g ref="char:EOLhyphen"/>guities of Words, varieties of Sen<g ref="char:EOLhyphen"/>ſes and Verſions, or diſcrepancies of Copies, that all theſe, and many other like points predicted of the <hi>Meſſias,</hi> are uncertain. Now this being admitted, I ſay, that theſe things being thus foretold of Je<g ref="char:EOLhyphen"/>ſus
+<pb n="7" facs="tcp:40530:11"/> Chriſt, ſo many hundred years before his Nativity; and being alſo exactly verified of him in the fulneſs of time, the Records which predict them are a greater and ſurer proof of his being the Son of God, and Saviour of the world, than the miraculous voice from heaven. For,</p>
+            </div>
+            <div n="4" type="section">
+               <head>§. IV</head>
+               <p n="1">1. This <hi>Prediction</hi> was no <hi>leſs a miracle</hi> than that immediate voice. By a Miracle we mean, a <hi>ſenſible effect ſurpaſſing the power of nature:</hi> Now what power (eſpecially at ſuch a vaſt diſtance of time) could foretel theſe particularities, but his, by whoſe counſel they were effected? that is, they were Divine, that is, Supernatural and Miraculous. Beſides,</p>
+               <p n="2">2. Theſe Predictions are a more <hi>publick</hi> and <hi>laſting</hi> Miracle. That
+<pb n="8" facs="tcp:40530:12"/> voice was only heard by a few (<hi>Peter, James,</hi> and <hi>John,</hi>) atteſted but by three or four witneſſes, and tranſient: This, known to thouſands, to myriads, an evi<g ref="char:EOLhyphen"/>dent miracle, in actual being to this day, and likely to continue ſuch as long as men ſhall live on the face of the earth; or, indeed, to ſurvive the world.</p>
+               <p n="3">3. In theſe Predictions there is <hi>no poſſibility of our being,</hi> or of mens pleading that we can be, <hi>impoſed upon.</hi> Colluſion, Fiction or Miſtake, might be at leaſt pleaded in caſe of the immediate voice: In one inſtance of it (<hi>John</hi> xii. 29.) the people that heard it, ſaid, it thundered, others that an Angel ſpake to him: but neither could thunder promulge, nor An<g ref="char:EOLhyphen"/>gel, either foretel or verifie theſe things (1 <hi>Pet.</hi> 1. 12.) <hi>Angels deſired
+<pb n="9" facs="tcp:40530:12"/> to look into theſe things, but knew</hi> them not, till revealed.</p>
+               <p>In ſumm then, theſe predi<g ref="char:EOLhyphen"/>ctions being no leſs a Miracle than that immediate voice upon the Mount, and as a <hi>Miracle</hi> having theſe three advantages of the other, that they are a <hi>more publick, more laſting,</hi> and <hi>more un<g ref="char:EOLhyphen"/>exceptionable</hi> miracle than that, we may ſay with the Apoſtle, in ha<g ref="char:EOLhyphen"/>ving the Scriptures of the <hi>Old Teſtament,</hi> we have a <hi>more ſure word of Prophecy,</hi> than was the Voice from heaven.</p>
+            </div>
+            <div n="5" type="section">
+               <head>§. V</head>
+               <p> And having thus proved the certainty of the Old Teſtament, by way of <hi>Corollary</hi> we may infer the truth of the New. For this containing partly the <hi>Hiſtory</hi> of the things <hi>predicted;</hi> partly a Scheme of <hi>Doctrine aſſerted, in
+<pb n="10" facs="tcp:40530:13"/> the Old;</hi> by reaſon of its <hi>accord</hi> with the Old, muſt be <hi>true,</hi> if that be true. At leaſt nothing can be juſtly pretended againſt its truth, except the <hi>matter of Fact</hi> ſhould be deny'd, <hi>viz.</hi> that ſuch a perſon lived as Jeſus of <hi>Nazareth;</hi> and that he did ſuch things, and had ſuch things done unto him, as are there recorded. Now as to this, beſides the undeniable credit of Hiſtories, there are in being a people diſperſt over all the world, who profeſs ſuch a perſon to have been of their Na<g ref="char:EOLhyphen"/>tion, and that they executed him, and proſecuted his follow<g ref="char:EOLhyphen"/>ers, and ſtill execrate both; as in<g ref="char:EOLhyphen"/>deed we read in thoſe books. Now this matter of fact being admit<g ref="char:EOLhyphen"/>ted, it is ſure no power could ef<g ref="char:EOLhyphen"/>fect ſuch things for fulfilling of thoſe Prophecies, but that Divine
+<pb n="11" facs="tcp:40530:13"/> power from whence the Prophe<g ref="char:EOLhyphen"/>cies firſt came. To predict things hundreds of years before they come to paſs, and in purſuance of thoſe Predictions, at ſuch di<g ref="char:EOLhyphen"/>ſtance to effect them, are both of the ſame omnipotence: Therefore the <hi>Relations</hi> contained in the New Teſtament are true: there<g ref="char:EOLhyphen"/>fore the <hi>hiſtorical Records</hi> of them muſt be <hi>true,</hi> becauſe containing a relation of things truly done, and by the finger of God. And the <hi>Doctrinal</hi> part muſt be <hi>true,</hi> becauſe according with, and aſ<g ref="char:EOLhyphen"/>ſerted by the Old Teſtament, which was before proved true. Therefore ſeeing both Hiſtorical and Doctrinal parts are true, the <hi>whole New Teſtament is a ſure word.</hi> We have then (God be bleſſed) both <hi>a ſure word of Prophecy,</hi> and <hi>a ſure word of Goſpel too,</hi> and <hi>they
+<pb n="12" facs="tcp:40530:14"/> do well who take heed thereto.</hi>
+               </p>
+            </div>
+            <div n="6" type="section">
+               <head>§. VI</head>
+               <p> But I conceive I may upon the Apoſtles authority affirm, they do not ſo, who imploy their wits and learning to traduce and over<g ref="char:EOLhyphen"/>throw the certainty of this ſure word of Prophecy. For if the ſurer be uncertain, what will be<g ref="char:EOLhyphen"/>come of the other? Nay, what of all evidences of Chriſtianity? May I therefore take leave to <hi>anſwer</hi> the new-form'd (at leaſt <hi>new<g ref="char:EOLhyphen"/>trim'd) Objections</hi> againſt the <hi>cer<g ref="char:EOLhyphen"/>tainty of the Old Teſtament:</hi> which it is (therefore) now more ne<g ref="char:EOLhyphen"/>ceſſary to do, becauſe the books that proclaim thoſe Objections to the world are made Engliſh, and in the hands of the very common people. The ſumm of thoſe Ob<g ref="char:EOLhyphen"/>jections I may reduce to three heads; the Imputations of <hi>Cor<g ref="char:EOLhyphen"/>ruption;</hi>
+                  <pb n="13" facs="tcp:40530:14"/> of <hi>different Readings;</hi> and of the <hi>none</hi> or <hi>indeterminate Senſe</hi> of the Originals.</p>
+            </div>
+            <div n="7" type="section">
+               <head>§. VII</head>
+               <p> 
+                  <hi>Objection</hi> I. We have not the books of the Old Teſtament as they were written by the firſt Au<g ref="char:EOLhyphen"/>thors, but certain pieces, and <hi>contractions</hi> of them, and thoſe too very <hi>mutilate and corrupt.</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> I crave leave to make anſwer for the Scriptures of the Old Teſtament out of thoſe of the New. The Apoſtles pronounced the Scripture as extant in their days, <hi>A ſurer word of Prophecy</hi> (as we have ſeen) <hi>given by inſpiration of God, able to make men wiſe unto Salvation, perfect, throughly furniſh<g ref="char:EOLhyphen"/>ed to all good works, (2 Tim.</hi> iii. 15, 16, 17.) Now we ſay, They are <hi>the ſame at preſent</hi> as to all ſub<g ref="char:EOLhyphen"/>ſtantial points (variations of Spel<g ref="char:EOLhyphen"/>ling
+<pb n="14" facs="tcp:40530:15"/> and Orthography we are not to account for) as they were then. They then conſiſted of the <hi>Law, Prophets,</hi> and <hi>Pſalms</hi> or Poe<g ref="char:EOLhyphen"/>tical books (at leaſt) the third part was the <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, or HAGIO<g ref="char:EOLhyphen"/>GRAPHA, wherein the Pſalms are (<hi>Luke</hi> xxiv. 44.) They con<g ref="char:EOLhyphen"/>ſiſt of the ſame ſtill; and, as far as can appear, in the ſelf-ſame order. <hi>Act.</hi> xiii. 33. <hi>It is written in the ſecond Pſalm, Thou art my ſon, this day have I begotten thee.</hi> Theſe words are in our ſecond Pſalm to this day. And again he ſaith in another Pſalm, <hi>thou ſhalt not ſuffer thine Holy one to ſee corrup<g ref="char:EOLhyphen"/>tion, v.</hi> 35. theſe words are in that o<g ref="char:EOLhyphen"/>ther Pſalm (<hi>viz.) Pſal.</hi> xvi. 10. And again, <hi>David</hi> himſelf ſaith in the book of <hi>Pſalms, The Lord ſaid unto my Lord, ſit thou on my right hand till I make thine enemies thy foot<g ref="char:EOLhyphen"/>ſtool,
+<pb n="15" facs="tcp:40530:15"/> Luk.</hi> xx. 42. That paſſage is alſo in our Pſalms, and in a Pſalm inſcribed to <hi>David,</hi> as the Author, <hi>viz.</hi> in <hi>Pſal.</hi> cx. Not to inſtance in more paſſages, as might be done abundantly.</p>
+            </div>
+            <div n="8" type="section">
+               <head>§. VIII</head>
+               <p> Beſides, it is not credible (as S. <hi>Hierom</hi> in his time, out of <hi>Ori<g ref="char:EOLhyphen"/>gen</hi> anſwered thoſe who objected the falſification of the Old Teſta<g ref="char:EOLhyphen"/>ment) it is not credible, I ſay, that our Lord, and his Apoſtles, who ſo ſharply reproved the other crimes and vices of the <hi>Scribes,</hi> and the ſeveral Sects of the <hi>Jews,</hi> ſhould have been ſilent of this, which was the greateſt of all (<hi>be<g ref="char:EOLhyphen"/>ing falſe in the greateſt DEPOSI<g ref="char:EOLhyphen"/>T<g ref="char:V">Ʋ</g>M</hi>) taking from, or corrup<g ref="char:EOLhyphen"/>ting the Divine Oracles commit<g ref="char:EOLhyphen"/>ted to their charge. And this Argument though from Negative
+<pb n="16" facs="tcp:40530:16"/> Authority, is the more conſider<g ref="char:EOLhyphen"/>able upon the ſcore of S. <hi>Auſtin</hi>'s Doctrine, who gives it as a ge<g ref="char:EOLhyphen"/>neral Rule, that <hi>where there is a fit place in Scripture to ſay a thing, if it were ſo, and it is not ſaid, the ar<g ref="char:EOLhyphen"/>gument is good though from Nega<g ref="char:EOLhyphen"/>tive Authority, that it is not ſo.</hi> Now what more fit places can be ima<g ref="char:EOLhyphen"/>gined, than where our Lord ap<g ref="char:EOLhyphen"/>peals to the Scriptures touching his Miſſion and Doctrine; when he commands his hearers <hi>to ſearch</hi> the <hi>Scriptures;</hi> when he tells his Diſciples and the multitude, <hi>The Scribes and Phariſees ſit in Moſes's ſeat,</hi> and requires them to <hi>obſerve and do</hi> what they bid them, but <hi>not to do after their works; for they ſay and do not.</hi> In all appearance what they ſaid as from <hi>Moſes,</hi> or ſitting in his ſeat (<hi>the Scripture as repor<g ref="char:EOLhyphen"/>ted or delivered by them</hi>) was ge<g ref="char:EOLhyphen"/>nuin
+<pb n="17" facs="tcp:40530:16"/> and ſincere enough, how<g ref="char:EOLhyphen"/>ever vitious their practices were. Who here can imagin, that, had the <hi>Scribes</hi> then (and <hi>Scribes</hi> muſt do it, or none could) had they, I ſay, then falſified, corrupted or curtail'd the Scriptures, we ſhould not in ſome of theſe and like pla<g ref="char:EOLhyphen"/>ces have heard of it? Would not ſome Caution or other have been annext, to this purpoſe; <hi>Search, but take heed of corruptions</hi> in ſuch a place: Know there are defalca<g ref="char:EOLhyphen"/>tions in ſuch. In a word, and to ſpeak out, Our Lord had not been faithful in the houſe of God, had he not warned the family, of ſuch an evil. I know a certain Perſon has pretended to reply to this anſwer, but his reply is em<g ref="char:EOLhyphen"/>pty and frivolous.</p>
+               <pb n="18" facs="tcp:40530:17"/>
+            </div>
+            <div n="9" type="section">
+               <head>§. IX</head>
+               <p> Laſtly, as to this Objection; I ſay, 'tis morally impoſſible ſince our Saviours time, and indeed for many hundred years before that, that the Scriptures ſhould have been corrupted: for the multi<g ref="char:EOLhyphen"/>tude of Copies was then ſuch, has been ſince much more ſuch, and ſo far diſperſed, that neither one man, nor one body of men, could ever get them into their hands to corrupt them; and if ſome few, or many Copies, had been cor<g ref="char:EOLhyphen"/>rupted, but not all, the ſincere number would have detected the corrupt. To give a parallel in<g ref="char:EOLhyphen"/>ſtance, which will eaſily be un<g ref="char:EOLhyphen"/>derſtood by all, who can read <hi>Engliſh.</hi> Our <hi>Engliſh</hi> Bibles, in ſundry impreſſions of this age, are corrupted in <hi>Act.</hi> vi. 3. <hi>Chuſe ſe<g ref="char:EOLhyphen"/>ven men, whom ye may appoint,</hi>
+                  <pb n="19" facs="tcp:40530:17"/> YE falſly for WE [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] The corruption may be found in the later <hi>Edinburgh, Cambridge,</hi> and ſince very ordinarily in divers (in<g ref="char:EOLhyphen"/>deed moſt) <hi>London Editions.</hi> Now this being done, not till the Facti<g ref="char:EOLhyphen"/>on had crumbled it ſelf into ſeve<g ref="char:EOLhyphen"/>ral minute parties, all pretending Scripture for their ſeveral diſtin<g ref="char:EOLhyphen"/>ctive little opinions, 'tis not im<g ref="char:EOLhyphen"/>probable it might be done at firſt with deſign, and particularly of thoſe, who would eſtabliſh the peoples power, not only in Elect<g ref="char:EOLhyphen"/>ing, but even in Ordaining, their own Miniſters. Mean while let it be done by whom it might, Take an <hi>Edinburgh Edition</hi> of 1636. a <hi>Cambridge</hi> one of 16. a <hi>London</hi> one of 1642. being it was not poſſible for the Faction to get all theſe Copies and a multitude more in, as being ſo vaſtly nume<g ref="char:EOLhyphen"/>rous;
+<pb n="20" facs="tcp:40530:18"/> the true old Copies exa<g ref="char:EOLhyphen"/>mined and compared, diſcover the Variation from them, that is, the Corruption; and a more Au<g ref="char:EOLhyphen"/>thentick one than any of them, that is, the Original Greek, if any doubt remain, decides the whole Controverſie. In like manner, there were amongſt the <hi>Jews,</hi> even in our Saviour's days, and much more ſince, a vaſt number of Co<g ref="char:EOLhyphen"/>pies of the Old Teſtament (for they read in their Synagogues eve<g ref="char:EOLhyphen"/>ry Sabbath day both Law and Pro<g ref="char:EOLhyphen"/>phets (<hi>Act.</hi> xiii. 27, &amp; xv. 21.) wherefore beſides what they had for private uſe, they muſt at leaſt have as many publick Books as Synagogues, and Synagogues they had divers in every City. ('Tis incredible, almoſt, what their Au<g ref="char:EOLhyphen"/>thors report of the number of Sy<g ref="char:EOLhyphen"/>nagogues in <hi>Jeruſalem</hi> it ſelf) And
+<pb n="21" facs="tcp:40530:18"/> there were amongſt them ſeveral Sects too, and Scribes of every Sect, all ſufficiently watching over one another, had there been any falſe dealing of this kind. Nay, the very Ten Tribes upon their Seceſſion, and, in probability, much more after their diſperſion, had Copies of the Law, to which we owe the preſent Samaritan-He<g ref="char:EOLhyphen"/>brew Text. But it is certain the <hi>Jews</hi> and <hi>Samaritans</hi> were mortal enemies; would not eat, converſe, diſcourſe together. Now that all their ſeveral Sects and Syna<g ref="char:EOLhyphen"/>gogues, that theſe two laſt named adverſe and mutually incenſed Nations, ſhould conſpire to bring all their Copies together, to vary or corrupt them all alike, and the world never hear of this combi<g ref="char:EOLhyphen"/>nation, and the reconcilement of the Parties in order thereunto, is
+<pb n="22" facs="tcp:40530:19"/> not morally poſſible. But if all were not brought together and altered alike, as before ſaid, one muſt convince another of falſhood. And there being, as ſhall be pre<g ref="char:EOLhyphen"/>ſently made out, no Variations of any conſiderable moment betwixt the Copies of the Old Teſtament, which we now have in common uſe, and the moſt antient or ſin<g ref="char:EOLhyphen"/>cere ones, that can be produced, (at leaſt none having made it ap<g ref="char:EOLhyphen"/>pear there is any ſuch Variation) but in the ſtead thereof a marve<g ref="char:EOLhyphen"/>lous agreement, there can be no ſuch corruption, as the Objection pretends. And this brings us to the</p>
+            </div>
+            <div n="10" type="section">
+               <head>§. X</head>
+               <p> 
+                  <hi>Second Objection.</hi> There are in the <hi>Hebrew</hi> Originals actually pro<g ref="char:EOLhyphen"/>duced, ſay ſome, <hi>different Readings,</hi> and both cannot be true, (for
+<pb n="23" facs="tcp:40530:19"/> truth is but one) therefore the one of them muſt be corrupt.</p>
+               <p>
+                  <hi>Anſw.</hi> There are indeed <hi>different Readings,</hi> and ſome too, as preten<g ref="char:EOLhyphen"/>ded, from famed <hi>different Tradi<g ref="char:EOLhyphen"/>tions. Rabbi Aſcher</hi> ſetting up one way, and <hi>R. Naphthali</hi> another: and from them the <hi>Oriental Jews</hi> obſerving one Lection, the <hi>Occi<g ref="char:EOLhyphen"/>dental</hi> another. And all theſe are collected by diverſe, and particu<g ref="char:EOLhyphen"/>larly are now extant in the <hi>Appen<g ref="char:EOLhyphen"/>dix</hi> to the <hi>Engliſh Polyglott.</hi> But yet all theſe Diverſities make only a great noiſe, are indeed of no conſiderable importance. For the inſtances of Diverſity are ſuch as no one, but a ſuperſtitious <hi>Jew,</hi> or ſome perſon who had a mind to unſettle foundations, and for want of Arguments were con<g ref="char:EOLhyphen"/>cern'd to catch at any ſhadows of Probability, would contend about
+<pb n="24" facs="tcp:40530:20"/> them. They are ſuch mighty mat<g ref="char:EOLhyphen"/>ters as theſe; Whether the ſame word ſhould be written with a long <hi>E</hi> or a ſhort <hi>A;</hi> whether another ſhould be written with their longeſt <hi>O,</hi> or with one ſomewhat ſhorter; whether it ſhould have an Accent of this kind, or of that; whether a ſupernumerary (which they call a Quieſcent) letter ſhould be written, or whether, being it might with<g ref="char:EOLhyphen"/>out dammage be ſpared, it ſhould be omitted.</p>
+               <p>Not much unlike hereto is alſo the noiſe made with what they call the <hi>Keri</hi> and the <hi>Ketib,</hi> that is, the <hi>Marginal</hi> and the <hi>Textual Reading:</hi> as if there were ſome great repugnancy betwixt theſe: Whereas, in brief, the <hi>thing,</hi> or <hi>matter,</hi> is ſtill the <hi>ſame</hi> in both, the <hi>manner of expreſſion</hi> a little <hi>dif<g ref="char:EOLhyphen"/>ferent.</hi> And this occaſioned part<g ref="char:EOLhyphen"/>ly
+<pb n="25" facs="tcp:40530:20"/> by the Superſtitious modeſty of ſome Rabbies, putting into the Margin certain words, which they thought more honourable to be read, inſtead of ſome other broader term in the Text [as, 2 <hi>Kings</hi> xviii. 27. they would not read it <hi>Piſſe,</hi> but the <hi>water of their feet,</hi> forſooth] partly by reaſon of ſome letters, or words, dubiouſly written in ſome venerable antient Copies, and ſo variouſly read. From which Antient Copies, out of reverence, they would vary nothing in tran<g ref="char:EOLhyphen"/>ſcribing, but copying the text ex<g ref="char:EOLhyphen"/>actly and entirely as they found it, that which was by the moſt learn<g ref="char:EOLhyphen"/>ed, in ages of old, judged the more correct reading, they put in the Margin, and called it <hi>Keri.</hi> So that the ſumm of the diffe<g ref="char:EOLhyphen"/>rence is, 'tis one way in ſome Co<g ref="char:EOLhyphen"/>pies, 'tis otherwiſe in others; and
+<pb n="26" facs="tcp:40530:21"/> which way ſoever we take, the matter is of no great moment; we have liberty without danger to take either reading, which pleaſeth us beſt. Now, under fa<g ref="char:EOLhyphen"/>vour, ſuch <hi>various readings</hi> as theſe, are not Arguments of the Scri<g ref="char:EOLhyphen"/>ptures corruption, but of <hi>Gods Providence and Humane induſtry</hi> to <hi>preſerve Scripture from corruption.</hi> And in concluſion of this point, I may boldly aver, there is not one <hi>Article either of Faith,</hi> or <hi>Chri<g ref="char:EOLhyphen"/>ſtian practice, concern'd</hi> in all the <hi>various Hebrew Lections</hi> in the World. The knowledge of them, to uſe the Rabbinical phraſe, is only an <hi>Hedge about the Law:</hi> and our care to read aright, in matters of the ſmalleſt concern, keeps us from reading amiſs in the greater.</p>
+               <pb n="27" facs="tcp:40530:21"/>
+            </div>
+            <div n="11" type="section">
+               <head>§. XI</head>
+               <p> The <hi>Third Objection</hi> is, The <hi>Ori<g ref="char:EOLhyphen"/>ginal is inſignificant:</hi> For, beſides that <hi>None,</hi> no not the very <hi>Jews</hi> themſelves, <hi>can read it;</hi> the <hi>words</hi> of that Language are <hi>Equivocal,</hi> and ſo the <hi>Tranſlations all vain,</hi> and not to be credited; as being taken from an Original, which is in a manner whatſoever people will make it, and much different from what it was, as uſed by our Lord and his Apoſtles, while on earth.</p>
+               <p>To be as brief and diſtinct as may be in Anſwer to this Ob<g ref="char:EOLhyphen"/>jection, as to its ſeveral parts:</p>
+            </div>
+            <div n="12" type="section">
+               <head>§. XII</head>
+               <p> Firſt, It is a pleaſant thing to perſwade men they cannot read, when actually they do read, and themſelves know, and others hear them ſo to do: Or, that now of old that way of Reading has been
+<pb n="28" facs="tcp:40530:22" rendition="simple:additions"/> loſt, which yet has been tranſ<g ref="char:EOLhyphen"/>mitted as all Ordinary Arts are (but with infinitely more care) from hand to hand, by people who have in their Generation made it their whole buſineſs (as to this day many <hi>Jews</hi> do) meerly to read and write their Law. It is ſure, and ſome of the fierceſt of our Contradictors confeſs, the <hi>true way of reading</hi> was <hi>known</hi> in <hi>Origen</hi>'s time: for he tranſcribed the Hebrew text, both in He<g ref="char:EOLhyphen"/>brew Characters, and expreſt a<g ref="char:EOLhyphen"/>gain, as well as it could be, in Greek letters into his <hi>Hexapla.</hi> It was known in <hi>Hierom</hi>'s time: For he had that <hi>Hexapla,</hi> and a<g ref="char:EOLhyphen"/>mended his Copy of it by the more Authentick one in the Library of <hi>Caeſarea;</hi> and out of the Hebrew text, by help of that Copy, made his Tranſlation. Thus, for at leaſt
+<pb n="29" facs="tcp:40530:22"/> 400 years after Chriſt, we are, as I think it muſt be acknowledged, ſecure. About the year 1000 at furtheſt, if not ſooner, all men confeſs the Tradition of the pre<g ref="char:EOLhyphen"/>ſent reading to have been in uſe, and ſithence, at leaſt, to have been currant in the world, by the in<g ref="char:EOLhyphen"/>duſtry of the <hi>Maſorites</hi> of <hi>Tiberias.</hi> In the interval then of 600 years, this the old Art of Reading muſt be loſt, and a new one invented, by that people whoſe Original native Language this Hebrew was. Which negligence firſt, and af<g ref="char:EOLhyphen"/>terwards moſt laborious Artifice of the <hi>Jews,</hi> how improbable it is, eſpecially ſeeing we have left to us the ſeveral Prophecies, at leaſt ſo many ſeveral Prophecies of the <hi>Meſſias,</hi> and of the <hi>Jews</hi> dealing with him, ſo intire in the text, even againſt the ſuppoſed inven<g ref="char:EOLhyphen"/>tors
+<pb n="30" facs="tcp:40530:23"/> themſelves; is ſo notorious that I need not ſpeak. Beſides, what cauſe, or even appearance and likelihood of any cauſe, can in any Hiſtory be ſhewn, why in that Period of time, rather than any other, the <hi>Jews</hi> ſhould loſe the Reading of their Language? In<g ref="char:EOLhyphen"/>deed conſidering, that their Law, that is, their Religion, was written in this Language, conſidering they ever were, and to this day are, a Nation ſo ſtubbornly tenacious of their Religion and Law; con<g ref="char:EOLhyphen"/>ſidering, laſtly, that no ſmall numbers amongſt them, as juſt now was ſaid, made the Reading and Copying of their Law, the buſineſs of their life, (did ſo in our Saviours time, have done ſo ſince) it is not credible, the Read<g ref="char:EOLhyphen"/>ing of it ſhould in that period have been loſt: And if not then loſt, never.</p>
+            </div>
+            <div n="13" type="section">
+               <head>§. XIII</head>
+               <p> 
+                  <pb n="31" facs="tcp:40530:23"/>Secondly, As to <hi>Hebrew words</hi> having <hi>ſeveral ſignifications,</hi> 'tis very ſure ſome of them have: but ſo have the words in all Langua<g ref="char:EOLhyphen"/>ges, which are known to have been commonly ſpoken upon the face of the Earth; at leaſt 'tis no<g ref="char:EOLhyphen"/>torious the ſame may be ſaid, of either <hi>Greek</hi> or <hi>Latin.</hi> And we know, even in them, as well as in the more modern <hi>Lingua</hi>'s, we are daily put to it, from the ſcope of the diſcourſe, and the juncture of ſome words with other, <hi>&amp;c.</hi> to de<g ref="char:EOLhyphen"/>termin the true acceptation or ſenſe. Which in our Tranſlating the Hebrew text, if we cannot do, we ordinarily ſet down both, or all the ſenſes, one in the Text and the other in the Margin of our Tranſlations. So that this is no juſt plea, either againſt the He<g ref="char:EOLhyphen"/>brew,
+<pb n="32" facs="tcp:40530:24"/> or our Tranſlations there<g ref="char:EOLhyphen"/>of: We may take the Hebrew, where dubious, in all the ſenſes it will bear: and our Tranſlations (the modern ones eſpecially, and above others, the <hi>Engliſh</hi>) ſet down the ſeveral ſenſes. So does not the Septuagint (however high<g ref="char:EOLhyphen"/>ly contended for by ſome) which always confines us to one of the ſeveral ſenſes, and ſometimes miſſes all of them. In a word, our Tran<g ref="char:EOLhyphen"/>ſlations have, or may have, all the Senſes the preſent Originals can bear, and beſides them, any which Antient Verſions or Gloſſes can probably affix to the Originals. But it is to be feared, ſome men are enemies, for Enmities ſake.</p>
+            </div>
+            <div n="14" type="section">
+               <head>§. XIV</head>
+               <p> Thirdly, As to the <hi>difference</hi> pleaded betwixt our <hi>preſent Read<g ref="char:EOLhyphen"/>ing,</hi> and what is pretended to
+<pb n="33" facs="tcp:40530:24" rendition="simple:additions"/> have been our <hi>Saviour</hi>'s and his <hi>Apoſtles rendring</hi> the <hi>Hebrew text,</hi> this may indeed ſtumble or gra<g ref="char:EOLhyphen"/>vel ſome who do not conſider the following particulars. (1.) That it is a <hi>great miſtake</hi> to ſay, our <hi>Lord</hi> himſelf <hi>made uſe of the Sep<g ref="char:EOLhyphen"/>tuagint,</hi> or, as far as can be proved, any other <hi>Greek Verſion</hi> imagina<g ref="char:EOLhyphen"/>ble; becauſe the Authors of the Scriptures of the New Teſtament have done ſo. For he being by Nation a <hi>Jew,</hi> and preaching only <hi>to the loſt ſheep of the houſe of Iſrael,</hi> as being an <hi>Apoſtle of the Circum<g ref="char:EOLhyphen"/>ciſion</hi> (according to S. <hi>Paul</hi>'s term of him) certainly ſpoke the Lan<g ref="char:EOLhyphen"/>guage of the then <hi>Jews,</hi> and preached to them therein; which haply, though not ſtrictly He<g ref="char:EOLhyphen"/>brew, was yet a Dialect of it, namely, Syriack. And this ap<g ref="char:EOLhyphen"/>pears from a multitude of paſſages
+<pb n="34" facs="tcp:40530:25"/> ſpoken by him, extant in the Greek Teſtament without change, as often as thoſe Authors thought fit to record the numerical ſylla<g ref="char:EOLhyphen"/>bles uttered by him: ſuch are <hi>Ra<g ref="char:EOLhyphen"/>cha, Mammon, Corban, Cephas, Bar<g ref="char:EOLhyphen"/>jona, Talitha Kumi, Ephphatha, Eli Eli lamma ſabactani, &amp;c.</hi> There<g ref="char:EOLhyphen"/>fore he in his ordinary preaching, made no uſe of the Septuagint. And it is moſt plain from <hi>Acts</hi> vii. 2. <hi>&amp;c.</hi> and from <hi>ch.</hi> xxi. 40. and from diverſe other places, that the Apoſtles, and their Adjutants, when they preached to the <hi>Jews,</hi> uſed the Hebrew tongue, that is, the Language then common to the <hi>Jews,</hi> called, as a-fore ſug<g ref="char:EOLhyphen"/>geſted, in a large ſenſe, Hebrew. And when they preached to others, they had nothing to do to alledge Scripture, much leſs therefore then did they uſe Greek Verſions.
+<pb n="35" facs="tcp:40530:25"/> Therefore neither did the Apo<g ref="char:EOLhyphen"/>ſtles, even in their ordinary preaching to the <hi>Jews,</hi> ordinarily uſe the Septuagint. (2.) The main body of the Jewiſh Nation perſiſting in infidelity, and the Goſpel deſigning the Call of the <hi>Gentiles,</hi> it was neceſſary the New Teſtament ſhould be written in an<g ref="char:EOLhyphen"/>other Language than that where<g ref="char:EOLhyphen"/>in either the Doctrine of the Old, was firſt recorded, or the Do<g ref="char:EOLhyphen"/>ctrine of the New, as we have ſeen, at firſt, preached: and the <hi>Greek</hi> being then, and in that part of the world, the moſt <hi>uni<g ref="char:EOLhyphen"/>verſal language,</hi> was the fitteſt for this purpoſe. On this occaſion was the New Teſtament written in Greek. Now the Old Teſta<g ref="char:EOLhyphen"/>ment having been before known to have been publickly made <hi>Greek,</hi> by a Council of LXXII <hi>Jews,</hi> (the
+<pb n="36" facs="tcp:40530:26"/> number of the Elders in a great <hi>Sanhedrim</hi>) who by the way de<g ref="char:EOLhyphen"/>ſigned no ſtrict Tranſlation, but rather ſuch a Paraphraſtical one as might beſt recommend their Law and Nation to Foreigners; the Authors of the New Teſta<g ref="char:EOLhyphen"/>ment finding that Verſion ſuffici<g ref="char:EOLhyphen"/>ently clear, true, and exact for their purpoſe, choſe often times to make uſe of that, as being known, and in all mens hands, and confeſt by all to contain the body of the Jewiſh Religion, rather than to tranſlate a-new, accord<g ref="char:EOLhyphen"/>ing to ſtrictneſs, which would have been diſputed and contra<g ref="char:EOLhyphen"/>dicted. And on this account the Septuagint, or old Greek Tran<g ref="char:EOLhyphen"/>ſlation, was uſed ſo <hi>often</hi> by the Penmen of the New Teſtament. <hi>So often,</hi> I ſay; for thoſe who bear the World in hand that the Sep<g ref="char:EOLhyphen"/>tuagint
+<pb n="37" facs="tcp:40530:26"/> Verſion is <note n="*" place="margin">
+                     <hi>See the Appen<g ref="char:EOLhyphen"/>dix to this pur<g ref="char:EOLhyphen"/>poſe,</hi> A.</note> 
+                  <hi>always</hi> ob<g ref="char:EOLhyphen"/>ſerved by the Authors of the New Teſtament, or even by the Evan<g ref="char:EOLhyphen"/>geliſts themſelves, it is to be feared, are abuſed perſons, or have not been at pains to examine the particulars. For, it is evident to all perſons of conſideration and diligence in ſuch ſtudies, that theſe Sacred Authors took a <note n="*" place="margin">
+                     <hi>See Appen<g ref="char:EOLhyphen"/>dix,</hi> B.</note> la<g ref="char:EOLhyphen"/>titude, contenting themſelves with the general ſenſe of the Text, not ſervilely following words: of which, would this Diſcourſe admit, I would give (and poſſibly here<g ref="char:EOLhyphen"/>after ſhall ſubjoin) inſtances nu<g ref="char:EOLhyphen"/>merous enough.</p>
+               <p>In the mean while (3.) That <hi>any Tranſlation</hi> ſhould be of <hi>more Authority</hi> than the <hi>Original,</hi> and the <hi>Original</hi> as <hi>prior,</hi> ſo not <hi>derive Authority</hi> to the <hi>Tranſlation,</hi> is a piece of ſenſe only becoming ſuch
+<pb n="38" facs="tcp:40530:27"/> Doctors, who ſcorn all mens rea<g ref="char:EOLhyphen"/>ſons but their own, or are re<g ref="char:EOLhyphen"/>ſolved to ſet up their own Au<g ref="char:EOLhyphen"/>thority without reaſon. If a Re<g ref="char:EOLhyphen"/>cord, Decree, or Sentence were to be produced, tranſlated into another Language than that wherein it was conceived, it would certainly be adjudged of ſo much the more validity, by how much more ſtrict accord it could be proved to have with the Original. And the ſame being to be con<g ref="char:EOLhyphen"/>cluded of all Tranſlations in like caſes, the <hi>Hebrew text</hi> muſt, for that reaſon, be of <hi>more Authority</hi> than the <hi>Septuagint,</hi> or <hi>any other Tranſlation</hi> of, or from it ſelf.</p>
+            </div>
+            <div n="15" type="section">
+               <head>§. XV</head>
+               <p> But that which muſt for ever take off the force of this part of the Objection is, (4.) that the <hi>New-Teſtament-reading</hi> of any
+<pb n="39" facs="tcp:40530:27"/> Texts, which are taken out of the Old, does, if duly examined, at the <hi>laſt reſult,</hi> and in effect, <hi>accord with the Old;</hi> and however different the words appear, the ſenſe is co<g ref="char:EOLhyphen"/>incident, and the matter comes to the ſame paſs. I will inſtance in a Text of importance, wherein, at firſt ſight, the ſenſe ſeems very different, yet upon a little conſi<g ref="char:EOLhyphen"/>deration, proves, as to matter, the ſame. It is, <hi>Pſal.</hi> xl. 6. We read, <hi>David</hi> there, in the perſon of Chriſt, thus addreſſing himſelf to God, <hi>Sacrifice and offering thou wouldeſt not,</hi> &amp;c. <hi>but mine ears haſt thou opened [Digged,</hi> ſaies the Margin, or rather <hi>Bored.] Then ſaid I, lo I come,</hi> &amp;c. <hi>to do thy will, O Lord.</hi> This the Apoſtle to the <hi>Hebrews,</hi> following the (* Modern Editions, probably, not the Antient Ver<g ref="char:EOLhyphen"/>ſion of the) Septuagint, reads,
+<pb n="40" facs="tcp:40530:28"/> 
+                  <hi>But a body haſt thou prepared me.</hi> Now Opening, Digging or Boring ears, and Preparing a Body, ſeem at firſt widely diſtant Notions: but in regard of our Lord's <hi>in<g ref="char:EOLhyphen"/>carnation</hi> and <hi>obedience to death, even the death of the Croſs,</hi> (the ſubject he had in hand) they are in effect much identick or equi<g ref="char:EOLhyphen"/>valent. In other terms, <hi rend="margQuotes">That I might in all things accompliſh and be obedient to thy will, thou haſt framed me an Or<g ref="char:EOLhyphen"/>ganiſed body, in which particu<g ref="char:EOLhyphen"/>larly thou haſt made me paſſa<g ref="char:EOLhyphen"/>ges for the receiving (or hear<g ref="char:EOLhyphen"/>ing) thy commands; that is, thou haſt digged or bored my ears.</hi> Framing of ears was a part of framing the body, and ſo Synecdochically the ſame. And he had reaſon rather to take that part of formation, than any other,
+<pb n="41" facs="tcp:40530:28"/> for the whole, becauſe he deſign<g ref="char:EOLhyphen"/>ed thereby to expreſs propheti<g ref="char:EOLhyphen"/>cally the <hi>Meſſias</hi>'s quickneſs and promptneſs to Obedience, and offering himſelf up upon the Croſs. Or otherwiſe; <hi>Mine ears haſt thou bored,</hi> that is, <hi rend="margQuotes">according to the Ceremony of perpetua<g ref="char:EOLhyphen"/>ting mens ſervices, thou haſt, by my free conſent and volun<g ref="char:EOLhyphen"/>tary propoſition, taken me as thy Servant, which that I might be, it was neceſſary I ſhould take the form of a Servant, the Hu<g ref="char:EOLhyphen"/>mane Nature: wherefore thou haſt prepared me a body, which I may offer in obedience to thy will.</hi> The preparing the Son a body was as plain a Teſtification that he was made a Servant, as to the ordinary Menial was the Bo<g ref="char:EOLhyphen"/>ring of the Ear. By either of theſe ſhort Paraphraſes (others have
+<pb n="42" facs="tcp:40530:29"/> made larger) we ſee the diſcre<g ref="char:EOLhyphen"/>pancy is naturally removed, ei<g ref="char:EOLhyphen"/>ther phraſe being the ſame in ef<g ref="char:EOLhyphen"/>fect, and both pertinent to the ſcope or deſign of the whole Pa<g ref="char:EOLhyphen"/>ragraph. And the like accom<g ref="char:EOLhyphen"/>modation might be made of other ſeemingly diſcordant paſſages, would the bounds of this diſ<g ref="char:EOLhyphen"/>courſe permit.</p>
+            </div>
+            <div n="16" type="section">
+               <head>§. XVI</head>
+               <p> To put into one, all which has been ſaid to this laſt Objection. The ſumm of our Anſwer is: Our Saviour and his Apoſtles, in their ordinary preaching to the <hi>Jews,</hi> uſed not the Septuagint, (part therefore of what our Ad<g ref="char:EOLhyphen"/>verſaries object is falſe.) In the Penning of the Goſpel or New Teſtament; becauſe a then re<g ref="char:EOLhyphen"/>ceived, though not exact, Verſion, was [<hi>Argumentum ad Homines</hi>] a
+<pb n="43" facs="tcp:40530:29"/> fit proof to many of that age and people, and would, beſides, ſerve well enough for all in general; the Verſion of the Septuagint was uſed ordinarily, and yet very <note n="*" place="margin">
+                     <hi>See herein the Ap<g ref="char:EOLhyphen"/>pendix,</hi> A.</note> frequently deſerted. (There is therefore ſtill more falſity in our Adverſaries clamours.) But it were Non-ſenſe to infer hence, as ſome do, that therefore the Sep<g ref="char:EOLhyphen"/>tuagint is more Authentick than the Hebrew, that is, a Tranſlation than its Original. Beſides, after all this coil, the authority both of Old Teſtament and New ſtands firm, above the attempts of its enemies, Wit, Learning or Ma<g ref="char:EOLhyphen"/>lice. For generally in both, the Senſe is the ſame, the way of ex<g ref="char:EOLhyphen"/>preſſing only different. The Old Teſtament, as extant in our <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> Bibles is tranſlated Gramma<g ref="char:EOLhyphen"/>tically, or, in a manner, word for
+<pb n="44" facs="tcp:40530:30"/> word: What is produced out of the Old, in the New Teſtament, is often a Paraphraſe of the Ori<g ref="char:EOLhyphen"/>ginal text, as being tranſlated from a kind of <hi>Greek</hi> Paraphraſe (rather than a ſimple Verſion) commonly called the Septuagint, and thence ariſes that ſeeming diſcrepancy.</p>
+               <p>I conclude therefore, upon the whole, the Scriptures of the Old Teſtament to be a ſure word of Prophecy, notwithſtanding thoſe loud imputations of Corruptions, of various Readings, of None or Indeterminate ſenſe: All which imputations, for the main, are falſe; and where they are not, affect not any conſiderable ſub<g ref="char:EOLhyphen"/>ſtantial part of Scripture (that is, of DIVINE VERITY) or point of Chriſtian Faith and Practice. And the ſame by the premiſes is
+<pb n="45" facs="tcp:40530:30" rendition="simple:additions"/> concluſible alſo of the New Te<g ref="char:EOLhyphen"/>ſtament: Therefore Scripture is Authentick.</p>
+            </div>
+            <div n="17" type="section">
+               <head>§. XVII</head>
+               <p> It remains now in the next place to propound terms, on which we may be <hi>aſcertained</hi> of our <hi>Faith</hi> from the Scriptures, which have been thus proved to be ſure: And they ſhall be very brief, few and reaſonable terms, which I will propound.</p>
+               <p>The firſt Article ſhall be, <hi>That in all controverted points of Faith,</hi> (for there are points of Faith, at leaſt points which ſome men ob<g ref="char:EOLhyphen"/>trude on our Faith, that are con<g ref="char:EOLhyphen"/>troverted and rejected too, very commonly and juſtly:) I ſay, that in ſuch controverted points of Faith, <hi>That doctrine, wherein both Originals and Tranſlations generally agree, whether in a deep ſilence or
+<pb n="46" facs="tcp:40530:31"/> a contradiction thereof, be adjudged either ſpurious or no point of Faith.</hi> This will at once <hi>ſtrike off</hi> all the <hi>new Articles of the Tridentine Creed,</hi> (I mean, the Creed framed from the Decrees of the Council of <hi>Trent</hi>) together with all Doctrines favoured there, though not ex<g ref="char:EOLhyphen"/>preſly decreed for Faith, but ſince improved and received as Faith by the <hi>Romaniſts.</hi> And particularly, the <hi>Popes Infallibility</hi> will be gone: for if Scripture had aſſerted <hi>In<g ref="char:EOLhyphen"/>fallibility</hi> to any <hi>Vicegerents of God on earth,</hi> it would be to <hi>Kings,</hi> not to Popes, Prov. xvi. 10. <hi>A Divine Sentence is in the lips of the King, his mouth tranſgreſſeth not in judg<g ref="char:EOLhyphen"/>ment.</hi> Which text, though it manifeſtly reſtrain it ſelf to the Adminiſtration of Civil juſtice (wherein none of our Church ever thought of any Appeal from
+<pb n="47" facs="tcp:40530:31" rendition="simple:additions"/> a Royal Decree, or in any other caſe of reſiſtance to the Royal Authority;) yet doth it ſuppoſe a more generally infallible conduct and ſuperintendency of God's Providence over the Decrees of Kings, than is any where in Holy Scripture aſſerted over the Sen<g ref="char:EOLhyphen"/>tences or Determinations of any other Judges on Earth in any cauſe whatſoever. And I would fain ſee produced from any part of Holy (yea even of Apocryphal) Writ, ſo fair and expreſs a Text, for an Infallibility of Popes, or any other on Earth: But this by the bye.</p>
+               <p>Secondly, I propound only fur<g ref="char:EOLhyphen"/>ther, <hi>That whatſoever, Originals and Tranſlations generally agree in aſſer<g ref="char:EOLhyphen"/>ting as neceſſary to be believed or done, in order to Salvation, be ad<g ref="char:EOLhyphen"/>mitted as ſuch.</hi> And I am ſure
+<pb n="48" facs="tcp:40530:32" rendition="simple:additions"/> then, the <hi>whole Doctrine</hi> (both of <hi>Faith</hi> and <hi>Practice</hi>) of the <hi>Prote<g ref="char:EOLhyphen"/>ſtants</hi> ſtands eſtabliſht. For our <hi>Foundation</hi> is <hi>Scripture,</hi> and that <hi>interpreted by the <g ref="char:V">Ʋ</g>niverſal Tradi<g ref="char:EOLhyphen"/>tion</hi> of the Church in its <hi>firſt and pureſt ages,</hi> even when the boldeſt Adverſaries we have dare not ſay, thoſe corruptions of Scripture, of which now they make ſo clamo<g ref="char:EOLhyphen"/>rous pretences, were in being: and in Scripture our Foundation is not dubious Texts, perplext with Criticiſms, uncertain by va<g ref="char:EOLhyphen"/>rious Readings, ſuſpected for Cor<g ref="char:EOLhyphen"/>ruptions, Interpolations, <hi>&amp;c.</hi> but plain, expreſs, undoubted and re<g ref="char:EOLhyphen"/>peated ones. And as long as our Foundation thus is Scripture, if that be a ſure Word, our Faith is ſure.</p>
+               <pb n="49" facs="tcp:40530:32"/>
+            </div>
+            <div n="18" type="section">
+               <head>§. XVIII</head>
+               <p> Whether then ſome men di<g ref="char:EOLhyphen"/>ſpute againſt Scripture, meerly out of wantonneſs, and to ſhew their Learning, or for other ends, it concerns not us to enquire. But both they, and all our Enemies, muſt know, 'tis paſt time of day, to put us out of conceit with our Bibles, or to perſwade them out of our Hands or Hearts. <hi>Graecum eſt, non poteſt legi,</hi> might down in <hi>Monkiſh ages,</hi> it will <hi>not now;</hi> no not even with thoſe whom ſome diſdainfully (and with a greater pride than is due to the Merits of their own Learning) call <hi>Laicks.</hi> And God be bleſſed for this glo<g ref="char:EOLhyphen"/>rious Light. Upon the whole therefore, We remain ſure both of our Scriptures, and of our Faith.</p>
+            </div>
+            <div n="19" type="section">
+               <head>§. XIX</head>
+               <p> 
+                  <pb n="50" facs="tcp:40530:33"/>And here, by the way, I muſt take the liberty to ſay, <hi>All other</hi> imaginable <hi>ways</hi> of making us <hi>ſure of our Faith,</hi> without Scri<g ref="char:EOLhyphen"/>pture, in the preſent ſtate of things, are <hi>idle and vain.</hi> And whatever carries any plauſible pretence of certainty, will, at length, reſolve it ſelf into this of Scripture. There has been a long time, and ſtill is, a great cry in the world about <hi>Tradition:</hi> But if we look into the caſe, it is not <hi>Tradition</hi> (that is, the <hi>Conſtant conſent of the Antient and Catholick Church</hi>) which the <hi>Romaniſts</hi> have to vouch for their preſent <hi>Tradi<g ref="char:EOLhyphen"/>tions</hi> [or <hi>peculiar Doctrines</hi>] but the late <hi>corrupt uſe,</hi> and bold <hi>ſay<g ref="char:EOLhyphen"/>ſo</hi> of their Church. Thus in the Council of <hi>Trent,</hi> when the Evi<g ref="char:EOLhyphen"/>dence of any of theſe their new
+<pb n="51" facs="tcp:40530:33"/> (at leaſt comparatively new) Doctrines had been ſifted, and could be found, neither in Scri<g ref="char:EOLhyphen"/>pture, nor Fathers, or any anci<g ref="char:EOLhyphen"/>ent Councils; it was but ſaying the point was ſo held or practi<g ref="char:EOLhyphen"/>ſed by the Church, and the Church was Infallible; therefore being the Church taught it, it muſt be <hi>an Apoſtolick Tradition,</hi> though not extant in Scripture: and ſo whatever they pleaſed to give this venerable name to, was thereby preſently dub'd an Ar<g ref="char:EOLhyphen"/>ticle of Faith.</p>
+               <p>And particularly thus was the matter carried, in the queſtion of the <hi>Sacrifice of the Maſs,</hi> of the preſent <hi>Canon of the Maſs,</hi> of the <hi>Sacraments</hi> of <hi>Penance</hi> and <hi>Ex<g ref="char:EOLhyphen"/>treme <g ref="char:V">Ʋ</g>nction,</hi> in the <hi>Interdict of Prieſts marriage,</hi> not to name more points of like nature. For
+<pb n="52" facs="tcp:40530:34" rendition="simple:additions"/> if indeed, truly named, that is <hi>
+                     <g ref="char:V">Ʋ</g>niverſal</hi> Tradition [<hi>Quod ubi<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> quod ſemper, quod ab omnibus, &amp;c.</hi>] were the thing urged upon us, we are and ever have been as much for it as any men. To this day we cry; Let us go to tryal, on this iſſue, in the name of God. But ſuch Tradition as this, we ſhall find, amongſt all the con<g ref="char:EOLhyphen"/>troverted points, only for Scri<g ref="char:EOLhyphen"/>pture. I will be bold to ſay, we have not ſo unvariable Tradition for the <hi>Articles of the Creed,</hi> which we call the <hi>Apoſtles</hi> Creed, as we have in behalf of the <hi>Books</hi> of the <hi>Old and New Teſtament.</hi> So that according to theſe meaſures, we are but where we were before. Univerſal Tradition muſt preſcribe our Faith, and Uni<g ref="char:EOLhyphen"/>verſal Tradition we have for no point controverted, but for the
+<pb n="53" facs="tcp:40530:34"/> 
+                  <hi>Original Scriptures,</hi> nay indeed; ſcarcely for any other point of Faith ſo uniformly. Original Scripture therefore, as before, ſtill ſtands unſhaken.</p>
+            </div>
+            <div n="20" type="section">
+               <head>§. XX</head>
+               <p> But theſe Rules, will ſome ſay, are for <hi>Learned men,</hi> who under<g ref="char:EOLhyphen"/>ſtand, and can ſearch Originals, compare Verſions, and ſee where<g ref="char:EOLhyphen"/>in they agree: What ſhall the un<g ref="char:EOLhyphen"/>learned <hi>Common people do?</hi> I ſay ſtill, <hi>Keep to your Engliſh Tranſlati<g ref="char:EOLhyphen"/>on,</hi> good people: <hi>keep to what you are.</hi> Your <hi>Engliſh Bibles</hi> to you, are the <hi>ſureſt word of Prophecy and Goſpel too,</hi> that you can meet with. The <hi>Tranſlation</hi> of the <hi>Old Teſta<g ref="char:EOLhyphen"/>ment</hi> has been confeſt by Foreign<g ref="char:EOLhyphen"/>ers, of excellent judgment [<hi>uſque ad invidiam aliarum gentium elabo<g ref="char:EOLhyphen"/>rata</hi>] Accurate even to the envy of other Nations: That of the
+<pb n="54" facs="tcp:40530:35"/> 
+                  <hi>Goſpels</hi> is no leſs ſo: eſpecially taking in the Margin. And though it were to be wiſht, the <hi>Epiſtles</hi> had been tranſlated with that ſtrict<g ref="char:EOLhyphen"/>neſs according to the letter, and ſo unbyaſt judgment, with which the other parts of our Bibles are; yet this may be ſaid even as to them; What the Text has leſs exact (according to the Origi<g ref="char:EOLhyphen"/>nal) or dubious, not only the <hi>Margin,</hi> but the very <hi>different Character</hi> of ſeveral <hi>words in the Text,</hi> directs to a genuin or whole<g ref="char:EOLhyphen"/>ſome ſenſe of. My meaning is, whereas it is not poſſible to tran<g ref="char:EOLhyphen"/>ſlate Hebrew or Greek into Eng<g ref="char:EOLhyphen"/>liſh ſtrictly word for word, and to make ſuch tranſlation ſenſe (the Idiom or propriety of the languages ſo vaſtly differing, that we muſt in Engliſh put in ſeveral particles or little words to make
+<pb n="55" facs="tcp:40530:35"/> good ſenſe with us) all thoſe words ſo put in, or ſupplied, are printed ordinarily in a different ſort of letter from the reſt; by which means we may eaſily diſ<g ref="char:EOLhyphen"/>cover any word that is not in the Original, and from ſuch diſ<g ref="char:EOLhyphen"/>covery know, what weight to lay upon that text ſo tranſlated. So that there is no danger of peoples miſcarrying in their Faith, who humbly and ſoberly keep to their Engliſh Bibles, which God be bleſſed now we have extremely cheap and frequent in our hands. Only the people are here to be minded in caſe of doubts, to have recourſe to their ſpiritual Guides.</p>
+               <p>By theſe means then we are, or may be, as ſure of our Faith from Scriptures, as we are of the Scriptures themſelves.</p>
+            </div>
+            <div n="21" type="section">
+               <head>§. XXI</head>
+               <p> 
+                  <pb n="56" facs="tcp:40530:36"/>Now, To put a due <hi>Concluſion</hi> to this Diſcourſe; there are ſome <hi>Chriſtian Practices,</hi> which the ſcope of it does naturally recommend, and <hi>ſome advices</hi> which it may <hi>occaſion.</hi>
+               </p>
+               <p>And Firſt, Let the reflexion on what has been diſcourſed touch<g ref="char:EOLhyphen"/>ing the certainty of Holy Scri<g ref="char:EOLhyphen"/>ptures, and their Authentick Ve<g ref="char:EOLhyphen"/>rity, raiſe in our hearts a due <hi>Eſteem</hi> and <hi>Cordial Reverence</hi> of them, as not being from Man, nor, meerly, by man, but <hi>given by inſpiration of God,</hi> and in a pe<g ref="char:EOLhyphen"/>culiar and marvellous manner, preſerved and <hi>tranſmitted by his ſpecial Providence</hi> from age to age, through multitudes of hands down to us, who live pro<g ref="char:EOLhyphen"/>bably near the end of time. It
+<pb n="57" facs="tcp:40530:36"/> was once the great priviledge of the <hi>Jews,</hi> that to them <hi>were com<g ref="char:EOLhyphen"/>mitted the Oracles of God:</hi> that priviledge is now common to us, with them. Though perhaps therefore we may not keep thoſe Oracles with ſo ſuperſtitious a care and curioſity as they did; yet let us both keep, and treat them with as <hi>cordial adherence,</hi> and as <hi>awful eſteem.</hi> But eſpeci<g ref="char:EOLhyphen"/>ally, let us take care that we uſe not paſſages out of them, in our ordinary diſcourſe, ſlightingly, in Jeſt and Drollery, to create Laughter to our ſelves and o<g ref="char:EOLhyphen"/>thers. Holy things ſhould not be plaid with: and we are to remember, that if we do play with them, we teach people to think we do not believe them to be Holy.</p>
+               <pb n="58" facs="tcp:40530:37"/>
+               <p>Secondly, Let not <hi>a Prize be put into our hands, and we ſuch fools as not to have hearts to uſe it.</hi> Have we the <hi>Word of Prophe<g ref="char:EOLhyphen"/>cy,</hi> ſurer than other Miraculous Revelation; Have we the <hi>Goſpel of Truth</hi> too, both mutually con<g ref="char:EOLhyphen"/>firming and confirmed by one another, and ſhall we be ſo idle and groſs, as to be any of us in a manner uncapable of uſing ei<g ref="char:EOLhyphen"/>ther? Why ſhould there be a perſon in a Chriſtian Church or Nation, to whom the Holy Scri<g ref="char:EOLhyphen"/>pture ſhould be as a Book ſealed, who ſhould know no more, by the Book open and laid before him, than if faſt cloſed up; I mean who ſhould not be able, himſelf to read, the glad tidings and terms of his Salvation? Good people, deny not your ſelves that, which an excellent Perſon has
+<pb n="59" facs="tcp:40530:37"/> moſt juſtly ſtiled, the CHRI<g ref="char:EOLhyphen"/>STIANS BIRTH-RIGHT, the uſe of Holy Scriptures. Take care and endeavour, that both you and yours be able to read. And being ſo, whatever Book you read not through, or rarely look into, let not the Bible be that neglected one. Rather ac<g ref="char:EOLhyphen"/>count ſuch a day loſt, in which you have not attentively and con<g ref="char:EOLhyphen"/>ſiderately read ſome part there<g ref="char:EOLhyphen"/>of.</p>
+               <p>Thirdly, Remember him who ſaid, <hi>Hold faſt till I come, that no man take thy Crown.</hi> He ſits at the right hand of his Father, ready to give it, and will in good time come and give it us, if we faint not.</p>
+               <p>And Laſtly, As moſt excellent means to inſure to our ſelves a right uſe of Scriptures, and to
+<pb n="60" facs="tcp:40530:38"/> preſerve us from miſinterpreting or miſapplying them, let us be careful of the two following par<g ref="char:EOLhyphen"/>ticulars.</p>
+               <p>Firſt, To furniſh our minds with a <hi>form of ſound Doctrine,</hi> ga<g ref="char:EOLhyphen"/>thered out of Holy Scripture. This, it is to be hoped, we had in ſome degree in our early years by <hi>Catechiſm,</hi> and without this, both Scripture and Sermons are in a great meaſure unſerviceable. It is the Apoſtle's Rule, that they who <hi>Propheſie</hi> (that is in the New Teſtament notion of Pro<g ref="char:EOLhyphen"/>pheſying, interpret Scripture) do it <hi>according to the proportion of Faith,</hi> Rom. xii. 6. his meaning ſeems to be, that underſtanding, firſt, the ſeveral Articles of Chri<g ref="char:EOLhyphen"/>ſtian Faith, we ſhould interpret or take Scripture in conſiſtency
+<pb n="61" facs="tcp:40530:38"/> therewith. This rule will pre<g ref="char:EOLhyphen"/>vent the abuſe of Holy Scripture to Errour and Novelty.</p>
+               <p>Secondly, To endeavour the <hi>Honeſt and Impartial practice</hi> of what we know, in the fear of God, and as we ſhall anſwer the not Doing according to our Lords will, when we have known That his will. This moſt aſſuredly will prevent Scriptures being uſeleſs; and beſides will both lead us to an higher pitch of knowledge, and ſecure us from any dangerous Errours. For amongſt <hi>other parts of Chriſtian duty,</hi> we ſhall then practice <hi>Meekneſs, Humility,</hi> and a low conceit of our ſelves: we ſhall not therefore too much lean to our own underſtanding, we ſhall not exceed our own mea<g ref="char:EOLhyphen"/>ſures; And then (Pſal. xxv. 9, 14.)
+<pb n="62" facs="tcp:40530:39"/> 
+                  <hi>The meek will the Lord guide in judgment, the meek will he teach his way. The ſecret of the Lord is with them that fear him, and he will ſhew them his Covenant.</hi>
+               </p>
+               <p>Theſe are the great Uſes we ſhould make of this ſure Word of <hi>Prophecy, Law and Goſpel,</hi> to value and reverence it; in teſtimony thereof, to capacitate not only our ſelves, but all ours, by moderate, at leaſt, the loweſt degree of Learning (being able to read) to make uſe of it, and then diligently to read it, and hold it faſt: But eſpeci<g ref="char:EOLhyphen"/>ally by getting into our minds a form of ſound words (a due underſtanding Catechetical do<g ref="char:EOLhyphen"/>ctrine) and by living accord<g ref="char:EOLhyphen"/>ing to what we know, to enſure to our ſelves the right uſe of it.
+<pb n="63" facs="tcp:40530:39"/> And if we thus take heed to this ſure word, 'tis ſure we ſhall do well: We ſhall be <hi>ſure</hi> not only of <hi>our Faith,</hi> but of the <hi>End of it</hi> too; We ſhall be certainly and unſpeakably rewarded in Glory and Bliſs everlaſtingly.</p>
+               <closer>
+                  <hi>Which God grant,</hi> &amp;c.</closer>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="appendix">
+            <pb facs="tcp:40530:40"/>
+            <pb n="65" facs="tcp:40530:40"/>
+            <head>APPENDIX.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <p>IT is not at all the Deſign of the following Papers to ex<g ref="char:EOLhyphen"/>poſe or vilifie the Greek Tran<g ref="char:EOLhyphen"/>ſlation of the Old Teſtament, made by LXXII Elders of the <hi>Jewiſh</hi> Nation near three hundred years before Chriſt, and com<g ref="char:EOLhyphen"/>monly called the Septuagint; but rather to leave it in the poſſeſſion of what is its juſt and undoubted right, the Firſt and Higheſt place amongſt all the Antient Verſions. Only reſerving, in the mean while, and Aſſerting, to the Original He<g ref="char:EOLhyphen"/>brew its precedency, as well in
+<pb n="66" facs="tcp:40530:41"/> Authority as Age; and conſe<g ref="char:EOLhyphen"/>quently, to all modern Tranſlati<g ref="char:EOLhyphen"/>ons from it, a degree of Autho<g ref="char:EOLhyphen"/>rity proportionable to their Ac<g ref="char:EOLhyphen"/>cord with it; both which (I mean the Hebrew Original, and modern Tranſlations) have been ſtrangely trampled upon by ſome, in their undue cariere of zeal for the Septuagint.</p>
+               <p>The great Argument they urge, is the Uſe, which the Pen-men of the New Teſtament make of the Septuagints Verſion, in thoſe Texts which they produce out of the Law and the Prophets. Bold<g ref="char:EOLhyphen"/>ly they have affirmed, that <hi>the Evangeliſts, Apoſtles, and the whole Chriſtian Church by perpetual con<g ref="char:EOLhyphen"/>ſent have acknowledged the Truth of the Septuagints Verſion:</hi> And hence they would inferr, that <hi>no where of right we may depart from it.</hi>
+                  <pb n="67" facs="tcp:40530:41"/> Nay, not only all of the preſent Age, who prefer the Original to it, but even S. <hi>Hierom</hi> himſelf is ſeverely cenſured for ſo doing, and <hi>the Authority of any one of thoſe Seventy Interpreters</hi> (for it is ſup<g ref="char:EOLhyphen"/>poſed that ſome ſingle perſons of them came ſeveral times into <hi>Egypt,</hi> and tranſlated the Prophets and <hi>Hagiographa,</hi> the whole LXXII having at firſt tranſlated only the Pentateuch:) the Authori<g ref="char:EOLhyphen"/>ty, I ſay, of any ſingle perſon of thoſe Elders is avowed <hi>of greater credit than all the Synagogues of the Jews ſince that time,</hi> or all the <hi>Learning of the Rabbies</hi> their <hi>Fol<g ref="char:EOLhyphen"/>lowers.</hi>
+               </p>
+               <p>This <hi>Argument</hi> I have in effect <hi>denyed:</hi> and on the contrary, <hi>Tru<g ref="char:EOLhyphen"/>ly I have affirmed,</hi> (§. 14.) <q rend="margQuotes">That the Sacred Pen-men of the New Teſtament, have not always fol<g ref="char:EOLhyphen"/>lowed
+<pb n="68" facs="tcp:40530:42"/> the Septuagints Verſion, that they very commonly take a Latitude, and content them<g ref="char:EOLhyphen"/>ſelves with the general ſenſe of the Text, not indeed following either that, or any other Verſi<g ref="char:EOLhyphen"/>on, that we know of, then ex<g ref="char:EOLhyphen"/>tant.</q> And <hi>hence I would infer,</hi> that the Authority of the Sep<g ref="char:EOLhyphen"/>tuagint is not ſo Sacred as theſe men pretend, it having not ſo conſtant Vouchers as aſſerted; nay, it being left oftner by the Evangeliſts than followed; and eſpecially left, in moſt of thoſe Texts, which, by peculiar circumſtances, prove our Jeſus to have been the true Meſſias; which Texts, in the preſent Septuagint, are for the moſt part vitiouſly rendred, but in the Original He<g ref="char:EOLhyphen"/>brew are intire, and clear as the Sun: In fine, that the Original
+<pb n="69" facs="tcp:40530:42"/> therefore is to be acknowledg'd the only Authentick Old Teſtament.</p>
+               <p>Now, becauſe I will not, as ſome, expect to be believed upon my meer ſaying ſo: for a Tryal of the truth herein, we will take, at a venture, the ten firſt Texts, by each Evangeliſt reported out of the Old Teſtament, and collating them, both with the Septuagint and the Hebrew, as we ſhall find them, in particular, to accord with or recede from each or ei<g ref="char:EOLhyphen"/>ther, we will for the preſent make a more general Eſtimate. I could willingly have taken more, but theſe will ſuffice to try an or<g ref="char:EOLhyphen"/>dinary Reader's Patience, as well as give us a proof what we might expect in the reſt, were all ex<g ref="char:EOLhyphen"/>amined.</p>
+               <p>And for more clear proceeding herein, let it in the firſt place be
+<pb n="70" facs="tcp:40530:43"/> granted, or ſuppoſed, that where the Phraſe, or principal Terms, in any Text are altered, however the fame ſenſe be ſtill kept, there the Tranſlation of ſuch Text is not the ſame. For if both Phraſe and Senſe ſhould be altered, it would no longer be a different Tranſlation, but different Text. The alteration therefore of the Phraſe, or of the principal Terms, is ſufficient to warrant the name of a different Tranſlation.</p>
+               <p>This being taken for a Foun<g ref="char:EOLhyphen"/>dation, the Propoſitions which we are to prove, are diſtinctly theſe two:</p>
+               <p n="1">I. That the Evangeliſts do not always follow the Septuagints Tranſlation.</p>
+               <p>And for clearer caſting up the account, let this Propoſition be known by the letter <hi>A.</hi>
+                  <pb n="71" facs="tcp:40530:43"/> So that where ever it ſtands in the Margin, there may be obſerved an inſtance of this Propoſitions being ve<g ref="char:EOLhyphen"/>rified.</p>
+               <p n="2">II. That they uſed a Liberty, or took a Latitude, not follow<g ref="char:EOLhyphen"/>ing ever the expreſſions of any other known Tranſlation, or in<g ref="char:EOLhyphen"/>deed of the Original it ſelf, but contenting themſelves generally to report (ſometimes only to al<g ref="char:EOLhyphen"/>lude to) the Senſe of ſuch or ſuch Texts, as they had occaſion to make uſe of. And let not this be thought the worſe of, becauſe it was of old S. <hi>Jerome</hi>'s doctrine, who may be thought a party: <hi>The holy Apoſtles and Evangeliſts,</hi> ſaith he, <hi>commonly alledge Teſtimo<g ref="char:EOLhyphen"/>nies out of the Old Teſtament, ac<g ref="char:EOLhyphen"/>cording to the Senſe, not the Words:</hi>
+                  <pb n="72" facs="tcp:40530:44"/> as indeed do the Fathers, and moſt Writers, out of all Authors.</p>
+               <p>And, as the other, let this Pro<g ref="char:EOLhyphen"/>poſition be known by its letter, <hi>viz. B.</hi> And further, becauſe upon this Enquiry there will ariſe matter of fact, which will prove other Propoſitions, to be treated of anon, all tending to vin<g ref="char:EOLhyphen"/>dicate the Authority of the preſent Hebrew Text (which I contend to be the Origi<g ref="char:EOLhyphen"/>nal, and alone Authentick) for the better making up our account, therein, alſo, let <hi>C</hi> ſignifie the ſingle Concord of the Evangeliſts and Sep<g ref="char:EOLhyphen"/>tuagint: but <hi>C C</hi> the Concord of all three, Hebrew, Septua<g ref="char:EOLhyphen"/>gint and Evangeliſts: and † Texts perverted in the Sep<g ref="char:EOLhyphen"/>tuagint.</p>
+               <pb n="73" facs="tcp:40530:44"/>
+               <p>And now in the name of God, let us examine all without Preju<g ref="char:EOLhyphen"/>dice or Partiality, not ſolicitous for Victory but Truth.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>
+                  <hi>CHAP. II.</hi> Texts produced out of the Old Teſta<g ref="char:EOLhyphen"/>ment by S. <hi>Matthew.</hi>
+               </head>
+               <p>THE firſt Teſtimony S. <hi>Mat<g ref="char:EOLhyphen"/>thew</hi> alledges out of the Old Teſtament, is from <hi>Iſai.</hi> vii. 14. This in the Hebrew runs (ſtrictly enough according to our Tran<g ref="char:EOLhyphen"/>ſlation) <hi>Behold a Virgin ſhall con<g ref="char:EOLhyphen"/>ceive and bear a Son, and thou ſhalt call his name Emmanuel.</hi> In the Septuagint it runs thus, <hi>Behold a Virgin ſhall receive in her womb,</hi> and then word for word, as in the Hebrew. But in the Greek of
+<pb n="74" facs="tcp:40530:45"/> the New Teſtament, <hi>Behold a Vir<g ref="char:EOLhyphen"/>gin ſhall have</hi> [or <hi>carry] in her womb,</hi> which ſenſe our Tranſlators in the New Teſtament, <hi>Matth.</hi> i. 23. well expreſs, <hi>ſhall be with child.</hi> I ſay, to conceive, and to be with child, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, are different Phraſes, if not things; and of more ſignifi<g ref="char:EOLhyphen"/>cation, perhaps, here, than at firſt thought of. Had our Lord ac<g ref="char:EOLhyphen"/>cording to the opinion of the old <hi>Valentinians,</hi> or later <hi>Menno<g ref="char:EOLhyphen"/>nites</hi> in <hi>Germany,</hi> had only a Ce<g ref="char:EOLhyphen"/>leſtial body, which meerly paſſed through the Virgin <hi>Mary,</hi> not be<g ref="char:EOLhyphen"/>ing formed of her ſubſtance; ſhe might have been ſaid to have re<g ref="char:EOLhyphen"/>ceived it in her womb: But <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>to be with child,</hi> being according to common uſe of the Phraſe, properly of Women, who are truly gravid, does more em<g ref="char:EOLhyphen"/>phatically
+<pb n="75" facs="tcp:40530:45"/> aſſert the Verity of our Lord's Humane Nature, by im<g ref="char:EOLhyphen"/>plying his being carried the full time in the womb; and there<g ref="char:EOLhyphen"/>fore that his body was nouriſhed, and conſequently formed of his bleſſed Mothers ſubſtance, which <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> does not. And it may be no wrong to the Holy Ghoſt, to conceive he guided S. <hi>Matt.</hi> thus in Greek to word his Text, rather than as the Septuagint do. But beſides this variation, where<g ref="char:EOLhyphen"/>as the Septuagint, keeping cloſe to the Hebrew, have it, <hi>Thou ſhalt call,</hi> namely, <hi>Thou, O Virgin, ſhalt call,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> S. <hi>Matthew</hi> here alſo recedes, and that from both, ſaying, <hi>They ſhall call.</hi> And in truth, in the former point, he may be thought, alſo, to have a little left the He<g ref="char:EOLhyphen"/>brew, as well as Septuagint: for, to <hi>receive in the womb,</hi> which was
+<pb n="76" facs="tcp:40530:46"/> the Septuagints phraſe, more pro<g ref="char:EOLhyphen"/>perly expreſſes what we mean by <hi>Conception,</hi> than <hi>being with child.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> In ſhort, his receding from the Septuagint in theſe two points, is a proof of the firſt Propoſition; <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> his receding both from Septua<g ref="char:EOLhyphen"/>gint, and from Hebrew, a proof of the ſecond.</p>
+               <p>The ſecond Allegation by S. <hi>Matthew</hi> is out of <hi>Micah</hi> v. 2. which is again very well, and na<g ref="char:EOLhyphen"/>turally, tranſlated from the He<g ref="char:EOLhyphen"/>brew, in our Bibles, thus, <hi>Thou Bethlehem-Ephratha, though thou be little amongſt the thouſands of Ju<g ref="char:EOLhyphen"/>dah, yet out of thee ſhall he come forth unto me, that is to be ruler in Iſrael.</hi> The Septuagint here ren<g ref="char:EOLhyphen"/>der it, <hi>Thou Bethlehem the houſe of Ephratha art the leaſt, &amp;c.</hi> In the reſt, nearly enough to the He<g ref="char:EOLhyphen"/>brew. But S. <hi>Matthew,</hi> eſpecially
+<pb n="77" facs="tcp:40530:46"/> in his Greek, recedes from both ſtrangely: <hi>Thou, O Bethlehem, the land of Judah, art in no wiſe the leaſt amongſt the Princes of Judah, Matth.</hi> ii. 6. Beſides the Variation, here is a plain contradiction to the Septuagint. [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Sept.] greater difference both in Senſe and Phraſe cannot well be. And in the latter member, excepting the contradiction, the variation is not much leſs. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>For out of thee ſhall come forth a Ruler</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Matth. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Sept.] <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> 
+                  <hi>Who ſhall feed my people Iſrael.</hi> Except the proper names, here is nothing alike. What, in the name of God, did he think, who aſſerted a <hi>perpetual conſent?</hi>
+               </p>
+               <p>The third Old Teſtament text is <hi>Hoſea</hi> xi. 1. which we render
+<pb n="78" facs="tcp:40530:47"/> faithfully, word for word, out of the Hebrew, thus: <hi>Out of Egypt have I called my ſon.</hi> But the Sep<g ref="char:EOLhyphen"/>tuagint, <label type="milestone">
+                     <seg type="milestoneunit">† </seg>
+                  </label> 
+                  <hi>I have ſent for his children out of Egypt.</hi> S. <hi>Matth.</hi> ii. 15. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> a<g ref="char:EOLhyphen"/>grees exactly with the Hebrew, the Septuagint being as foreign to his purpoſe, as it is to the Ori<g ref="char:EOLhyphen"/>ginal.</p>
+               <p>A fourth Text is out of <hi>Jerem.</hi> xxxi. 15. in which again the faith<g ref="char:EOLhyphen"/>fulneſs of our Tranſlators to the Hebrew, as well as to S. <hi>Matthew,</hi> is to be commended: <hi>In Ramah was there a voice heard, Lamentati<g ref="char:EOLhyphen"/>on and weeping and great mourning, [Lamentation and weeping of bitter<g ref="char:EOLhyphen"/>neſs,</hi> Hebr.] <hi>Rachel mourning for her children, and [refuſed,</hi> Hebr.] <hi>would not be comforted, becauſe they were not, Matth.</hi> ii. 17. He who reads the xxxi. ch. of <hi>Jerem.</hi> in the Septuagints Verſion, of that Edi<g ref="char:EOLhyphen"/>tion
+<pb n="79" facs="tcp:40530:47"/> at leaſt, which Biſhop <hi>Walton,</hi> judging moſt correct, put into our Polyglott, ſhall find in the whole chapter nothing nearer this Text, than ver. 3. <hi>A voice of people crying out of Oronaim, deſtruction and great breaking in pieces.</hi> But in truth this was not deſigned by the Interpreters as a Tranſlation of what is cited by S. <hi>Matthew;</hi> as belonging to <hi>ch.</hi> 48. 3. For here the Copy is all in confuſion; and this, which ſtands, in order, the xxxi, is indeed the xlviii. And that which ſtands the xxxxviii, is legitimately the xxxi. And ſo be<g ref="char:EOLhyphen"/>ſides the Hebrew, and our Bibles from it, even the vulgar Latin, and ſome later Editions of the Septuagint, have it. Now in the ſaid xxxxviii. <hi>chap. v.</hi> 15. we have the text we look for, which is there rendred thus: <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>Rachel all in</hi>
+                  <pb n="80" facs="tcp:40530:48"/> 
+                  <hi>weeping</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſimply with<g ref="char:EOLhyphen"/>out any adjection: not as S. <hi>Matt.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, which perfect<g ref="char:EOLhyphen"/>ly anſwers the Hebrew.] <hi>and would not ceaſe over her children, becauſe they were not.</hi>
+               </p>
+               <p>A fifth Text is out of <hi>Iſai.</hi> xl. 3. where firſt we find S. <hi>Matthew</hi> to follow the Septuagints Verſion: But the reaſon may well be pre<g ref="char:EOLhyphen"/>ſumed to be, becauſe they here follow the Hebrew: <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> ſo that in this text all three accord; eſpe<g ref="char:EOLhyphen"/>cially if we render <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> in the ſenſe our Tranſlators very properly, as I conceive, take it. The little difference there is, is of S. <hi>Mat<g ref="char:EOLhyphen"/>thew,</hi> from both the Original and Septuagint: for he putting the Pronoun for the Noun, contracts the latter clauſe thus. <hi>Make ſtraight his paths,</hi> inſtead of, <hi>make ſtraight the paths of our God,</hi> which word
+<pb n="81" facs="tcp:40530:48"/> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>of our God,</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> very material as it might ſeem, is in both, but o<g ref="char:EOLhyphen"/>mitted by S. <hi>Matthew.</hi>
+               </p>
+               <p>The ſixth and ſeventh Texts, S. <hi>Matthew</hi> produces out of the Old Teſtament (if we wave one, which is mangled by the Devil, as I am apt to think it not diſ<g ref="char:EOLhyphen"/>agreeable to do, inaſmuch as his authority will not much credit any Tranſlation) are ſuch where<g ref="char:EOLhyphen"/>in Hebrew, Septuagint and <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> Evan<g ref="char:EOLhyphen"/>geliſt are all at ſufficient accord. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> The places are <hi>Deut.</hi> viii. 3. and vi. 16. in S. <hi>Matt.</hi> iv. 4, 7.</p>
+               <p>The Eighth is, <hi>Deut.</hi> vi. 13. al<g ref="char:EOLhyphen"/>ledged by S. <hi>Matth.</hi> iv. 10, where both Hebrew and Septuagint (and ſo indeed in parallel texts) read, <hi>Thou ſhalt fear the Lord thy God,</hi> but S. <hi>Matthew</hi> gloſſes the word more to his purpoſe, and receding from both, faith, <hi>Thou
+<pb n="82" facs="tcp:40530:49"/>
+                     <label type="milestone">
+                        <seg type="milestoneunit">A. </seg>
+                     </label> ſhalt worſhip the Lord thy God.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> The Temptation was, <hi>To fall down and worſhip the Tempter, v.</hi> 9. And the word <hi>Worſhip,</hi> which is com<g ref="char:EOLhyphen"/>priſed in the fear of God, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, was more pertinent to op<g ref="char:EOLhyphen"/>poſe to the temptation, than <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> of the Septuagint, though that more exactly anſwered <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> the Original. But in the latter clauſe here it is to be noted, that Emphatical reſtrictive term, <hi>only,</hi> is added by the Septuagint, and not in the Original Hebrew: And the Evangeliſt herein follows the Septuagint, <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>
+                  </label> not the Hebrew: which is the firſt inſtance we meet with of this kind.</p>
+               <p>The Ninth is out of <hi>Iſai.</hi> ix. 1. produced by S. <hi>Matthew</hi> iv. 15. Not to ſpeak here of the irrecon<g ref="char:EOLhyphen"/>cileable difference, as it ſeems to me, between the Septuagint and
+<pb n="83" facs="tcp:40530:49"/> the Original, in ſuch turning a<g ref="char:EOLhyphen"/>ſide (I will not ſay perverting) the very ſcope of that whole Pa<g ref="char:EOLhyphen"/>ragraph, as makes the principal part of it, <label type="milestone">
+                     <seg type="milestoneunit">† </seg>
+                  </label> if taken according to the Septuagints Verſion unappli<g ref="char:EOLhyphen"/>cable and impertinent to the Evangeliſts purpoſe, we will on<g ref="char:EOLhyphen"/>ly view that part of it, broken off ſhort, which our Evangeliſt alledges—<hi>The land of Zebulun and the land of Naphthali, the way of the Sea beyond Jordan, Galilee of the Gentiles. The people which ſat</hi> [ſaith S. <hi>Matth. walked,</hi> Hebr.] <hi>in darkneſs, have ſeen a great light, and to them that ſat in the region</hi> [Hebr. <hi>in the land] of the ſhadow of death, light is ſprung up,</hi> or, <hi>hath ſhined.</hi> Thus far exactly do S. <hi>Mat<g ref="char:EOLhyphen"/>thew</hi> and the Hebrew agree. But the Septuagint differ thus—<hi>The region of Zebulun, the land of Naph<g ref="char:EOLhyphen"/>thali,
+<pb n="84" facs="tcp:40530:50"/> and the reſt of the inhabitants of the Sea-coaſt, and Galilee of the nations beyond Jordan. Behold a great light, ye people that walk in darkneſs, and ye that dwell in the region of the ſhadow of death, light ſhall ſhine upon you.</hi> Any one may perceive by the <hi>Engliſh,</hi> theſe Tranſlations differ; but the Greek of S. <hi>Matthew,</hi> and of the Septuagint in this text, is much <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> more different than the <hi>Engliſh:</hi> And S. <hi>Matthew</hi> here leaves the Septuagint, and keeps cloſe to the Hebrew.</p>
+               <p>In our Lord's Sermon on the mount, there are ſeveral conciſe old Precepts, and Doctrinal paſ<g ref="char:EOLhyphen"/>ſages rather toucht and alluded to, than any intire text, that I have obſerved, produced. For, the Tenth and laſt inſtance there<g ref="char:EOLhyphen"/>fore out of S. <hi>Matthew</hi> we will
+<pb n="85" facs="tcp:40530:50"/> take what he alledges, <hi>Chap.</hi> viii. 17. expreſly, and by name, out of <hi>Iſaiah, chap.</hi> liii. 4. which had our Tranſlators thought good, might have been rendred word for word out of <hi>Iſaiah</hi>'s Hebrew, as they have rendred it out of S. <hi>Matthew</hi>'s Greek. But I con<g ref="char:EOLhyphen"/>feſs the text is capable of a double ſenſe, and therefore they did ve<g ref="char:EOLhyphen"/>ry wiſely, according to the diffe<g ref="char:EOLhyphen"/>rent ſcopes of the Contexts, to give it a double rendring. How<g ref="char:EOLhyphen"/>ever in S. <hi>Matthew</hi>'s text, <hi>Himſelf took our infirmities, and bare our ſickneſſes;</hi> every word anſwers to the Hebrew. But the Septuagint have tranſlated every word diffe<g ref="char:EOLhyphen"/>rent (more pertinently, perhaps, to the Prophets ſcope, than to the Evangeliſts) thus. <hi>This</hi> [perſon <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] <hi>bears our ſins, and is grieved concerning us.</hi> S. <hi>Matthew</hi>
+                  <pb n="86" facs="tcp:40530:51"/> therefore leaves their tranſlation, and himſelf, as far as we know, tranſlates a-new.</p>
+               <p>And now to ſumm up our Evidence out of S. <hi>Matthew:</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>7</label> It is plain in ſeven Texts of Ten, he forſakes the Septuagint, and in diverſe of them, as all reaſon in<g ref="char:EOLhyphen"/>duces us to think, becauſe they therein forſake the Hebrew, which he rather follows. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>3</label> In the other three of the Ten, we find S. <hi>Mat<g ref="char:EOLhyphen"/>thew,</hi> Hebrew and Septuagint all accord. In four of thoſe inſtan<g ref="char:EOLhyphen"/>ces wherein S. <hi>Matthew</hi> tranſlates a-new, he takes that liberty which we aſſerted, receding in part from the very Hebrew it ſelf, in ex<g ref="char:EOLhyphen"/>preſſion, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>4</label> I mean, though not ſo much in ſenſe. Finally, we have one inſtance, and that only, in one reſtrictive particle, <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>1</label> which he takes out of the Septuagints Ver<g ref="char:EOLhyphen"/>ſion,
+<pb n="87" facs="tcp:40530:51"/> not to be found in the He<g ref="char:EOLhyphen"/>brew, but very pertinent and em<g ref="char:EOLhyphen"/>phatical to his purpoſe.</p>
+               <p>Therefore, I. the Authors or Pen-men of the New Teſta<g ref="char:EOLhyphen"/>ment, do not always, or with a <hi>perpetual conſent,</hi> follow the Sep<g ref="char:EOLhyphen"/>tuagints Verſion: but II. They take ſuch Latitude or Liberty, as ſeemed good to the Holy Spirit of God: which were the points to be demonſtrated.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>
+                  <hi>CHAP. III.</hi> Texts produced out of the Old Teſta<g ref="char:EOLhyphen"/>ment by S. <hi>Mark.</hi>
+               </head>
+               <p>SAINT <hi>Mark</hi> in the very be<g ref="char:EOLhyphen"/>ginning of his Goſpel, pro<g ref="char:EOLhyphen"/>duces two Teſtimonies (indeed out of two Prophets, but) ſo, as
+<pb n="88" facs="tcp:40530:52"/> they would ſeem at firſt ſight only one continued Prophecy.</p>
+               <p>The firſt is out of <hi>Malach.</hi> iii. 1. and in the Hebrew, it runs thus. <hi>Behold, I ſend my meſſenger, and he ſhall prepare</hi> [as by ſweeping or cleanſing] <hi>the way before my face.</hi> This the Septuagint thus render, <hi>Behold I ſend forth my meſſenger, and he ſhall view the way before my face.</hi> S. <hi>Mark</hi> paraphraſes it thus, <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>Behold, I ſend,</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Mark. Only <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Sept.] <hi>my meſ<g ref="char:EOLhyphen"/>ſenger before thy face, who ſhall pre<g ref="char:EOLhyphen"/>pare thy way before thee.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> A liberty not only altering the words and Tranſlation, but enlarging the ſenſe at that rate, which nothing but preſent inſpiration could war<g ref="char:EOLhyphen"/>rant. He follows neither Septua<g ref="char:EOLhyphen"/>gint nor Hebrew.</p>
+               <p>The ſecond is the ſame with the fifth, out of S. <hi>Matthew,</hi> wherein
+<pb n="89" facs="tcp:40530:52"/> S. <hi>Mark</hi> exactly agrees with his brother Evangeliſt; even to the uſe of the Pronoun, inſtead of the Hebrew emphatical Noun; both of them, in that minute dif<g ref="char:EOLhyphen"/>ference, receding from Hebrew as well as Septuagint. But this difference is not ſufficient to juſti<g ref="char:EOLhyphen"/>fie any mans ſaying, they here left the Verſion of the Seventy. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> Wherefore we will account all here agreed.</p>
+               <p>There is a glance at a paſſage of <hi>Iſaiah, Mark</hi> iv. 12. but the text not ſo directly cited as in S. <hi>John:</hi> we will therefore defer the Examination of it, till we meet with it there. And ſuppo<g ref="char:EOLhyphen"/>ſing we paſs that; the third text produced by S. <hi>Mark</hi> out of the Old Teſtament, as far as I have obſerved, is <hi>Iſai.</hi> xxix 13. which, as to what is made uſe of by this
+<pb n="90" facs="tcp:40530:53"/> Evangeliſt, runs thus, in the He<g ref="char:EOLhyphen"/>brew. <hi>This people—honour me with their lips, but have removed their heart from me, and their fear towards me is taught by the precept of men,</hi> as our Tranſlators have rendred it: or, more ſtrictly, <hi>their fear towards me, is a taught precept of men.</hi> And in the Septuagint thus, <hi>This people—they honour me with their lips, but their heart is far from me. But in vain do they worſhip me, teaching commandments of men, and doctrines.</hi> This laſt clauſe in<g ref="char:EOLhyphen"/>deed, S. <hi>Mark ch.</hi> vii. 6, 7. (we will ſuppoſe for perſpicuities ſake) a little alters, varying the order of the words, and omitting the conjunction <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> (which makes no inconſiderable variation of the Septuagints ſenſe, indeed melio<g ref="char:EOLhyphen"/>rates it, and is an inſtance of the liberty he uſed) thus, <hi>Teaching
+<pb n="91" facs="tcp:40530:53"/> for doctrines</hi> [or, as <hi>Doctrines] the commandments of men.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>
+                  </label> In the reſt, word for word he keeps to the Septuagint, who undoubtedly, as <hi>Grotius</hi> well conjectures, for <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> read, as eaſily they might in old Manuſcripts, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, and according to that reading they naturally enough rendred the text as they did, <hi>and in vain do they worſhip me:</hi> for ſo read, it runs word for word thus, <hi>and in vain is their fear</hi> [that is, <hi>worſhip] towards me.</hi> Then the participle <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, teaching, was neceſſary to be ſupplied in the latter clauſe, (which their miſreading, or otherwiſe reading the former, had involved) to make the conſtruction more com<g ref="char:EOLhyphen"/>modious, the ſenſe remaining ſtill the ſame.</p>
+               <p>The fourth paſſage is out of the Decalogue, <hi>Exod.</hi> xx. 12.
+<pb n="92" facs="tcp:40530:54"/> wherein all accord: <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label> only in that explicatory Supplement to this command, out of <hi>Exod.</hi> xxi. 17. <hi>He that curſeth father or mother;</hi> S. <hi>Mark ch.</hi> vii. 10. changes the verb from the Indicative to the Imperative, and more agreeably to the ſtile of a Law-giver, reads <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>Let him dy the death:</hi> but this difference is not worthy to come into ac<g ref="char:EOLhyphen"/>count.</p>
+               <p>The fifth inſtance of any intire Text alledged (not to ſpeak of places meerly referred to, or toucht upon, where it is uncer<g ref="char:EOLhyphen"/>tain, whether the Evangeliſt more ey'd the Original or Septuagint) is touching the inſtitution of Marriage, <hi>Mark</hi> X. 6, 7, 8. Where<g ref="char:EOLhyphen"/>in again all three exactly accord: excepting only, that the Septua<g ref="char:EOLhyphen"/>gint ſeem to have taken one ſmall,
+<pb n="93" facs="tcp:40530:54"/> but Emphatical word, out of the 25. <hi>verſe,</hi> and put it into the 24. of <hi>Geneſ.</hi> ii. for they read, <hi>They two ſhall be one fleſh. <label type="milestone">
+                        <seg type="milestoneunit">C. </seg>
+                     </label> Two,</hi> is not in the Hebrew, but notwithſtan<g ref="char:EOLhyphen"/>ding, taken from the Septuagint by our Evangeliſt, as being in<g ref="char:EOLhyphen"/>deed very much to his purpoſe.</p>
+               <p>The ſixth inſtance is again in the Decalogue, and therein of the Repetition of the whole ſecond Table, ſummarily, <hi>Mark</hi> X. 19. Now the difference herein, is greater in the Greek of theſe Writers, than it appears in the Engliſh: ſo that we may ſafely ſay, the Tranſlation is not the ſame with the Septuagint. The prohibitive particle, the mood or way of ſpeaking, all along is changed, and the order of the Precepts totally inverted. And finally, inſtead of the Tenth Com<g ref="char:EOLhyphen"/>mandment,
+<pb n="94" facs="tcp:40530:55"/> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>Thou ſhalt not covet,</hi> in which the Sep<g ref="char:EOLhyphen"/>tuagint exactly follow the He<g ref="char:EOLhyphen"/>brew, S. <hi>Mark</hi> has <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Defraud not,</hi> or, <hi>Deprive not;</hi> A manifeſt Variation, and no doubt deſigned to teach us what kind of Coveting is chiefly forbid in that command, namely, the nouriſh<g ref="char:EOLhyphen"/>ing ſuch deſires as put us upon contrivances to obtain what is our Neighbours, or to get to our ſelves, by depriving others of their right. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> A paſſage very remarka<g ref="char:EOLhyphen"/>ble. And this liberty even in the very text of the Decalogue, or Moral law it ſelf; I may ſay no<g ref="char:EOLhyphen"/>thing, but our Lord's Authority, as the Chriſtian Law-giver, or preſent inſpiration could have warranted.</p>
+               <p>The ſeventh Teſtimony which S. <hi>Mark</hi> produces, we find in
+<pb n="95" facs="tcp:40530:55"/> 
+                  <hi>Chap.</hi> xi. 17. out of <hi>Iſai.</hi> lvi. 7. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> and the Eighth, <hi>Chap.</hi> xii. 10. out of <hi>Pſalm</hi> cxviii. 21. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> In both which there is no variation at all be<g ref="char:EOLhyphen"/>tween Hebrew, Septuagint or E<g ref="char:EOLhyphen"/>vangeliſt.</p>
+               <p>The Ninth is in S. <hi>Mark, Chap.</hi> xii. 19. where he expreſly indeed refers to the old Law, but we can<g ref="char:EOLhyphen"/>not think by his reporting it, he lookt upon himſelf concern'd to produce the words of the text. That Law we find extant, <hi>Deut.</hi> xxv. 5. Where in the Hebrew it is, <hi>If he have no Son;</hi> in the Sep<g ref="char:EOLhyphen"/>tuagint, <hi>If he have no Seed;</hi> In S. <hi>Mark, If he leave no children.</hi> And again, <hi>ver.</hi> 7. The office of the ſurviving brother is termed in the Hebrew and Septuagint, <hi>Raiſing up his brothers name,</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] by S. <hi>Mark, Raiſing up ſeed unto his brother.</hi>
+                  <pb n="96" facs="tcp:40530:56"/>
+[<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.] In<g ref="char:EOLhyphen"/>deed in an Hiſtorical relation of this cuſtom, before it was paſt into a formal Law, <hi>Geneſ.</hi> xxxviii. 8. both Hebrew and Septuagint have, with a very ſmall difference, this latter phraſe. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> However this muſt be allowed a proof of the liberty he takes, to report the ſenſe, not the words, of the Law, and ſo not to confine himſelf to any Tranſlation.</p>
+               <p>The laſt inſtance I will alledge out of S. <hi>Mark</hi> is, <hi>Chap.</hi> xii. 26. where he repeats God's words, <hi>Exod.</hi> iii. 6. which in the Septua<g ref="char:EOLhyphen"/>gint run thus, <hi>I am God of Abra<g ref="char:EOLhyphen"/>ham, God of Iſaac, and God of Ja<g ref="char:EOLhyphen"/>cob.</hi> The Text conſiſting of pro<g ref="char:EOLhyphen"/>per names, there could not well be greater Variation, than by putting in all along the Article, which here bears a great Empha<g ref="char:EOLhyphen"/>ſis
+<pb n="97" facs="tcp:40530:56"/> to the purpoſe, for which our Lord alledged that Teſtimony; <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> and that S. <hi>Mark</hi> does, reporting it thus; <hi>I am the God [<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>] of Abraham, the God of Iſaac, and the God of Jacob.</hi>
+               </p>
+               <p>So that in ſumm: <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>3</label> in Ten Texts out of S. <hi>Mark,</hi> we have three, wherein the Evangeliſt manifeſtly recedes from, or al<g ref="char:EOLhyphen"/>ters the Septuagints Tranſlation. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>4</label> We have four, wherein both, Hebrew, Septuagint, and Goſpel all agree. <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>2</label> We have two in which he may be ſaid properly to follow the Septuagint, be<g ref="char:EOLhyphen"/>cauſe he keeps to their Verſion, even as to what is not in the He<g ref="char:EOLhyphen"/>brew in terms. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>4</label> And we have, to omit other leſs variations, four inſtances of the liberty (in two of them, very great) which he takes, in leaving both Hebrew
+<pb n="98" facs="tcp:40530:57"/> and Septuagint. Whereby it is evident, the Holy Ghoſt did not intend, in the ſtile of the New Teſtament, to Canonize any Tranſlation by a conſtant and perpetual obſervation of it. <hi>Q. E. D.</hi>
+               </p>
+            </div>
+            <div n="4" type="chapter">
+               <head>
+                  <hi>CHAP. IV.</hi> Texts out of the Old Teſtament cited by <hi>S. Luke.</hi>
+               </head>
+               <p>THE firſt is in his Firſt <hi>Chap. ver.</hi> 16, 17. where he evi<g ref="char:EOLhyphen"/>dently cites a Verſe or two out of the Prophet <hi>Malachi,</hi> but with ſuch liberty as I have aſſerted. The Text in the Hebrew runs
+<pb n="99" facs="tcp:40530:57"/> thus. <hi>Malach.</hi> iv. 5, 6. <hi>Behold I ſend you Elijah the Prophet.—And he ſhall turn the heart of the fathers to the children, and the heart of the children to their fa<g ref="char:EOLhyphen"/>thers.</hi> The Septuagints Verſion in this Chapter is very diſorder<g ref="char:EOLhyphen"/>ly, and perhaps has ſuſtained wrong: but I ſhall, as juſtly as I can, repreſent their rendring theſe words. <label type="milestone">
+                     <seg type="milestoneunit">† </seg>
+                  </label> 
+                  <hi>Behold, I will ſend unto you, Elias the Tiſhbite.</hi> [A very corrupt Addition, whoſe, or with what deſign, God knows. Sure it is, that the Jewiſh Rab<g ref="char:EOLhyphen"/>bies teach, and particularly <hi>Da<g ref="char:EOLhyphen"/>vid Kimchi</hi> upon this very Text, that <hi>Elias</hi> the <hi>Tiſhbite</hi>'s ſoul is to come into a body, created like the former, which he had, and that he is to appear, and call to<g ref="char:EOLhyphen"/>gether the <hi>Jews</hi> from the ſeveral parts of the world immediately
+<pb n="100" facs="tcp:40530:58"/> before the coming of the <hi>Meſſias;</hi> Three days before, ſay ſome of them. Now how excellently the Verſion of the Septuagint fa<g ref="char:EOLhyphen"/>vours this Fable, and whether this be not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to dote with, or on, the Rabbies, as ſome body taxes others to do, let the world judge. The Angel, in S. <hi>Luke,</hi> expreſly interprets the Prophecy of S. <hi>John</hi> the Baptiſts coming in the Spirit, and power of <hi>Elias, &amp;c.</hi> But enough of this. The Septuagint again proceed, miſinterpreting.] <hi>Who ſhall re<g ref="char:EOLhyphen"/>ſtore the heart of the father to the ſon, and the heart of a man to his neighbour.</hi> How ſtrangely diffe<g ref="char:EOLhyphen"/>rent from what we heard in the Prophet, and from what we find in S. <hi>Luke</hi>'s Text! who tells us an Holy Angel ſpoke to <hi>Zacha<g ref="char:EOLhyphen"/>ry,</hi> the father of <hi>John</hi> the Baptiſt,
+<pb n="101" facs="tcp:40530:58"/> concerning his ſon, thus: <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>He ſhall go before him</hi> [that is, <hi>John</hi> the Baptiſt before Chriſt] <hi>in the Spirit and power of Elias, to turn the hearts of the fathers to the children</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> ſtrictly according to the Original. Not, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as the Septuagint have ordered it.] <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> 
+                  <hi>and the diſobedient to the wiſdom of the juſt.</hi> A free paraphraſe as to this latter clauſe.</p>
+               <p>The Second Text alledged by S. <hi>Luke,</hi> is in <hi>Chapter</hi> ii. 23. where he tells us: <hi>It is written in the Law of the Lord, every male that openeth the womb ſhall be called holy to the Lord.</hi> Now who would not expect to find this text in the Law, Hebrew or Greek, word for word? Yet is the ſenſe only, not the words,
+<pb n="102" facs="tcp:40530:59"/> written there. <hi>The firſt-born, that openeth every matrice,</hi> as the Sep<g ref="char:EOLhyphen"/>tuagint exactly according to the Hebrew render it [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] is command<g ref="char:EOLhyphen"/>ed to be <hi>ſanctified to the Lord. Exodus</hi> xiii. 1. wherefore it may be juſtly ſaid, 'tis called Holy. Let us look further, and <hi>verſe</hi> 12. we find that Law repeated as to Beaſts, thus; <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. So again <hi>verſe</hi> 15. So <hi>Numbers</hi> viii. 16. But the Text, as S. <hi>Luke</hi> reports it, and ſeems to ſay, 'tis written ſo, I no where find but in him. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> Wherefore we plainly ſee him uſe a liberty to depart from the words both of Septuagint and Hebrew.</p>
+               <p>The Third indeed is of ſmall moment, yet to be juſt to our propoſal, we muſt take notice
+<pb n="103" facs="tcp:40530:59"/> of it. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>A pair of Turtles</hi> [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] ſays S. <hi>Luke, Chap.</hi> ii. 24. <hi>two Turtles,</hi> ſay both Hebrew and Septuagint.</p>
+               <p>In the Fourth Text, there is a Concord betwixt all, except only in one word. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> What the Septua<g ref="char:EOLhyphen"/>gint call <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>Plains,</hi> nearer the Hebrew, <hi>Iſai.</hi> xl. 4. S. <hi>Luke</hi> ſtiles <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>Chap.</hi> iii. 5. <hi>ſmooth ways.</hi> I do not eſteem this difference worth the accounting.</p>
+               <p>In the Fifth, S. <hi>Luke</hi> varies a little, both from the Hebrew, and the Septuagints and S. <hi>Mat<g ref="char:EOLhyphen"/>thew</hi>'s Greek. The Hebrew runs thus. <hi>Deut.</hi> viii. 3. <hi>But upon all that proceeds out of the mouth of God, ſhall man live.</hi> The Septua<g ref="char:EOLhyphen"/>gint gloſs it thus, <hi>upon every word that proceeds, &amp;c.</hi> and S. <hi>Matthew,</hi> as we have ſeen, follows them. S. <hi>Luke</hi> takes it ſhorter, <hi>Chap.</hi> iv. 4.
+<pb n="104" facs="tcp:40530:60"/> 
+                  <hi>But by every word of God.</hi> I eſteem not this variation worth reckon<g ref="char:EOLhyphen"/>ing, and therefore here again ac<g ref="char:EOLhyphen"/>count an Accord of all. <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label>
+               </p>
+               <p>In the Sixth, I cannot but take notice of the ſame Variation, made by S. <hi>Luke,</hi> both from the Hebrew and Septuagint, which S. <hi>Matthew</hi> alſo made, <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>Thou ſhalt worſhip,</hi> inſtead of, <hi>Thou ſhalt fear, Luke</hi> iv. 8. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> I refer my Reader to the note on S. <hi>Matthew.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label> In the Seventh, which was alſo the ſeventh out of S. <hi>Matthew,</hi> we find S. <hi>Luke</hi> to accord with the Hebrew, Septuagint and S. <hi>Mat<g ref="char:EOLhyphen"/>thew.</hi> 'Tis <hi>Luke</hi> iv. 12. and <hi>Deut.</hi> vi. 16.</p>
+               <p>The Eighth paſſage, has in it conſiderable both agreement and diſagreement to the Septuagint. 'Tis <hi>Iſai.</hi> lxi. 1, 2. Where, the Septuagint render what is in
+<pb n="105" facs="tcp:40530:60" rendition="simple:additions"/> the Hebrew, <hi>The opening of the priſon to them that are bound,</hi> by <hi>recovery of ſight to the blind.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>
+                  </label> This ſo different rendring, depends upon a Criticiſm, in the Hebrew word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>To open</hi> [properly ſay the Maſters, <hi>the eyes and ears.</hi>] However S. <hi>Luke</hi> follows it, <hi>Chap<g ref="char:EOLhyphen"/>ter,</hi> iv. 18. But withal, preſently adds another rendring, which plainly ſhews he had the He<g ref="char:EOLhyphen"/>brew text in his eye. <hi>To ſet at liberty</hi> [or ſend away] <hi>them that are bruiſed.</hi> This, I ſay, is not in the Septuagint, and evidently anſwers, though it does not ſtrictly expreſs, the Hebrew <hi>Open<g ref="char:EOLhyphen"/>ing of the Priſon to them that are bound.</hi> So that conſidering both, he may be ſaid here to have fol<g ref="char:EOLhyphen"/>lowed both Septuagint and He<g ref="char:EOLhyphen"/>brew: taking out of the Septua<g ref="char:EOLhyphen"/>gint, what was there emphatical
+<pb n="106" facs="tcp:40530:61"/> to his purpoſe, and yet not neg<g ref="char:EOLhyphen"/>lecting what in the Hebrew was not ſo fully tranſlated by the Septuagint, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> but giving a gloſs of it according to his liberty. And yet again, in this text, he moſt plainly recedes from the Septuagint, <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> in the very next clauſe, rejecting their tranſlation of <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> by <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, which was not pertinent to the ſcope of the text, and rendring it <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, which is both pertinent to the ſcope, and ſtrict juſtice to the word.</p>
+               <p>The Ninth Old Teſtament Text, which I have obſerved, produ<g ref="char:EOLhyphen"/>ced by S. <hi>Luke,</hi> is the ſame with S. <hi>Mark</hi>'s firſt: 'Tis in <hi>Luke</hi> vii. 27. and of <hi>Malachi</hi> iii. 1. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> The two Evangeliſts exactly ac<g ref="char:EOLhyphen"/>cord, but both recede widely from the Septuagint, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> on which
+<pb n="107" facs="tcp:40530:61"/> for the preſent I make no other note than there I did.</p>
+               <p>In <hi>Luke</hi> viii. 10. there is a ſhort touch upon <hi>Iſai.</hi> vi. 9. as indeed there was in S. <hi>Mark:</hi> but it occurs again more large<g ref="char:EOLhyphen"/>ly in S. <hi>John:</hi> we will therefore at preſent wave the examination thereof; and for the Tenth Teſti<g ref="char:EOLhyphen"/>mony produced out of the Old Teſtament by S. <hi>Luke,</hi> we will take that which next follows in him, <hi>Chapter</hi> x. 27. which is ſo much the more worthy of our notice, becauſe it is repeated by the two former Evangeliſts, but our meaſure did not reach to it. 'Tis <hi>Deut.</hi> vi. 5. <hi>Thou ſhalt love the Lord thy God with all thy</hi>
+               </p>
+               <list>
+                  <item>Heart—Soul—Might. <hi>Hebr.</hi>
+                  </item>
+                  <item>Mind—Soul—Power. <hi>Sept.</hi>
+                  </item>
+                  <pb n="108" facs="tcp:40530:62"/>
+                  <item>Heart—Soul—Strength, Mind. <hi>Luc.</hi>
+                  </item>
+                  <item>Heart—Soul—Mind, Strength. <hi>Mar.</hi>
+                  </item>
+                  <item>Heart—Soul—Mind. <hi>Matth.</hi>
+                  </item>
+               </list>
+               <p>Where it is obſervable that our Evangeliſt, firſt, recedes from the Septuagint, as indeed do both the other, to keep with the Hebrew in the firſt term, <hi>with all thine heart.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> Secondly, both from the Hebrew and Septuagint in making the Scheme conſiſt of four terms, as alſo doth S. <hi>Mark;</hi> whereas Originally it has but three. And thirdly, he renders <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> by <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as the Septuagint. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> Which are ample evidences of his not following, here, the Verſion of the Septua<g ref="char:EOLhyphen"/>gint.</p>
+               <p>In ſumm, Of Ten Texts taken by S. <hi>Luke,</hi> out of the Old Teſta<g ref="char:EOLhyphen"/>ment, we find him to recede
+<pb n="109" facs="tcp:40530:62"/> conſiderably from the Septua<g ref="char:EOLhyphen"/>gint, in ſix; <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>6</label> in three we find him to accord both with the Septua<g ref="char:EOLhyphen"/>gint (though not exactly) and Hebrew; <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>3</label> In one, he neither ac<g ref="char:EOLhyphen"/>cords with Hebrew nor Septua<g ref="char:EOLhyphen"/>gint, as to words, but only as to ſenſe, taking the liberty (uſual with all Writers) of his own ex<g ref="char:EOLhyphen"/>preſſion: But beſides this, there are five other inſtances of this li<g ref="char:EOLhyphen"/>berty, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>6</label> as to ſundry members of Texts. And there is only one in<g ref="char:EOLhyphen"/>ſtance, and that in one clauſe of a Text, wherein he keeps to the Septuagint apa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t from the He<g ref="char:EOLhyphen"/>brew. <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>1</label> Whence I preſume both our Propoſitions again demon<g ref="char:EOLhyphen"/>ſtrated.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="110" facs="tcp:40530:63"/>
+               <head>
+                  <hi>CHAP. V.</hi> Texts of the Old Teſtament cited by S. <hi>John.</hi>
+               </head>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> THE Firſt, <hi>Chapter</hi> i. 23. Here S. <hi>John</hi> recedes both from the Septuagints Verſion, which the other three Evangeliſts exactly followed, and from them alſo. Where they all have, <hi>Prepare ye the way, <label type="milestone">
+                        <seg type="milestoneunit">B. </seg>
+                     </label> (Iſai.</hi> xl. 3. <hi>Matt.</hi> iii. 3. <hi>Mark</hi> i. 3. <hi>Luk.</hi> iii. 4.) He ſays, <hi>Make ye ſtrait the way,</hi> which was one ſort of preparing it, but not at all, that intimated in the Original Hebrew word.</p>
+               <p>The Second, I have obſerved S. <hi>John</hi> to produce, is out of
+<pb n="111" facs="tcp:40530:63"/> 
+                  <hi>Pſalm</hi> lxix. 9. which he reports, <hi>Chapter</hi> ii. 17. exactly accord<g ref="char:EOLhyphen"/>ing to Hebrew and Septuagint, <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label> 
+                  <hi>The zeal of thine houſe hath eaten me up.</hi>
+               </p>
+               <p>The third Text by him pro<g ref="char:EOLhyphen"/>duced (for of little glances and alluſions no judgment can be made in this caſe) is out of <hi>Iſai.</hi> liv. 13. which the Septuagint, ſupplying the Verb <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (as very properly they might) out of <hi>verſe</hi> 12. render, <hi>And I will make—all thy children taught of God.</hi> This Text S. <hi>John</hi> thus re<g ref="char:EOLhyphen"/>ports, <hi>Chap.</hi> vi. 45. <hi>It is written in the Prophets, And they ſhall be all taught of God.</hi> A new Verb, a Pronoun for a Noun (depart<g ref="char:EOLhyphen"/>ing, herein, both from Hebrew and Septuagint) and yet the text brought in abruptly, as if it had been written in ſo many words
+<pb n="112" facs="tcp:40530:64"/> or ſyllables, <hi>And they, &amp;c.</hi> 'Tis <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> plain, he intended not to follow the Septuagints Verſion, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> though he kept both their, and the Ori<g ref="char:EOLhyphen"/>ginal ſenſe.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>
+                  </label> The fourth Teſtimony is very ſhort, (but with ſuch, out of this Evangeliſt, we muſt be content) from <hi>Pſalm</hi> lxxxii. 6. produced <hi>John</hi> x. 34. <hi>I ſaid ye are Gods:</hi> And herein all accord.</p>
+               <p>The fifth Teſtimony, I have obſerved, ſtill I mean, alledged at any length by <hi>S. John,</hi> is out of <hi>Zech.</hi> ix. 9. which in the He<g ref="char:EOLhyphen"/>brew and Septuagint runs thus: <hi>Rejoice greatly O daughter of Sion, ſhout, [Proclaim,</hi> Sept.] <hi>O daugh<g ref="char:EOLhyphen"/>ter of Jeruſalem. Behold thy King cometh to thee, Juſt, and having Salvation [Saved,</hi> Hebr. <hi>Saving,</hi> Sept.] <hi>is he, lowly</hi> [rather <hi>poor,</hi> Hebr.] <hi>and riding upon an Aſs,
+<pb n="113" facs="tcp:40530:64"/> and upon a colt the fole of Aſſes, [upon a beaſt accuſtomed to the yoak, and a young fole,</hi> ſay the Sept.] <label type="milestone">
+                     <seg type="milestoneunit">† </seg>
+                  </label> This S. <hi>John</hi> hath varied and contracted thus. <hi>Ch.</hi> xii. 15. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>Fear not daughter of Zion, Behold thy King cometh ſit<g ref="char:EOLhyphen"/>ting upon an Aſſes colt.</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> There are ſcarce three words, and thoſe ſuch too as could not be varied, of the Septuagints Greek, in the Evan<g ref="char:EOLhyphen"/>geliſts text.</p>
+               <p>The ſixth Old Teſtament-text, S. <hi>John</hi> has, is again a ſhort one. 'Tis <hi>Iſai.</hi> liii. 1. <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label> 
+                  <hi>Lord who hath believed our report? John</hi> xii. 38. And here all agree exactly. Indeed in a text ſo ſhort, and plain, it could not well be otherwiſe. But in</p>
+               <p>The ſeventh, which is larger, we ſhall find difference enough. The Prophet <hi>Eſaias ſaid again,</hi> ſaith S. <hi>John, Chap.</hi> xii. 40. <hi>He hath blinded their eyes, and hardened
+<pb n="114" facs="tcp:40530:65"/> their heart, that they ſhould not ſee with their eyes, nor underſtand with their heart, and be converted and I ſhould heal them.</hi> But <hi>Iſaiah</hi>'s words run thus, <hi>Iſai.</hi> vi. 10. <hi>Make the heart of this people fat, and make their ears heavy, and ſhut their eyes; leſt they ſee with their eyes, and hear with their ears, and un<g ref="char:EOLhyphen"/>derſtand with their hearts, and con<g ref="char:EOLhyphen"/>vert and be healed;</hi> as our Tran<g ref="char:EOLhyphen"/>ſlation, only making the Hebrew Engliſh, excellently renders them. The Septuagint varies a little from the Hebrew, turning the Impera<g ref="char:EOLhyphen"/>tive Active into a Paſſive Preter (which a ſmall difference of pun<g ref="char:EOLhyphen"/>ctation does in the Hebrew) and read thus, <hi>The heart of this people is waxed fat, and they hear heavily with their ears, and their eyes have they cloſed, leſt they ſhould ſee with their eyes, and hear with their
+<pb n="115" facs="tcp:40530:65"/> ears, and underſtand with their heart, and ſhould convert</hi> [or, <hi>return] and I ſhould heal them.</hi> Which Ver<g ref="char:EOLhyphen"/>ſion of the Septuagint S. <hi>Matthew</hi> follows, word for word, <hi>Matth.</hi> xiii. 15. So does S. <hi>Luke. Acts</hi> xxviii. 27. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> Notwithſtanding it is plain, both from Hebrew, from the Septuagint, and from both thoſe Evangeliſts, does S. <hi>John</hi>'s text differ. <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>
+                  </label> 1. Whereas the text con<g ref="char:EOLhyphen"/>ſiſts of two Climaxes or gradati<g ref="char:EOLhyphen"/>ons, one anſwering the other, S. <hi>John</hi> cuts each ſhort by one ſtep. 2. The Septuagints Verſion, and the Evangeliſts from them, impute all to the people, as their own Act or Choice. <hi>Their heart is grown fat, they hear heavily with their ears, and they have cloſed their eyes.</hi> S. <hi>John</hi> aſcribes all this (fol<g ref="char:EOLhyphen"/>lowing herein the Hebrew) to God and his judgment. 3. The
+<pb n="116" facs="tcp:40530:66"/> principal Greek words are in a manner all diverſe. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſaith S. <hi>John.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Septuagint. <hi>Matth. Luk.</hi> Further as to this Text, it is worthy our notice, that it is in three other places of the New Teſtament al<g ref="char:EOLhyphen"/>ledged, at leaſt in part: namely by S. <hi>Luke</hi> in his Goſpel, <hi>Ch.</hi> viii. 10. who there contracts it, and otherwiſe varies from the Septua<g ref="char:EOLhyphen"/>gint. By <hi>S. Mark Chap.</hi> iv. 12. who in the beginning holds with the Septuagint, but in the cloſe inſtead of, <hi>I ſhould heal them,</hi> puts paraphraſtically, <hi>and their<g ref="char:punc">▪</g> ſins ſhould be forgiven them,</hi> which is one part of healing, leaving here<g ref="char:EOLhyphen"/>in Hebrew, as well as Septuagint. And laſtly, by <hi>S. Paul, Rom.</hi> xi. 8. who gloſſes on it, differently from all, thus, <hi>God hath given them the
+<pb n="117" facs="tcp:40530:66"/> Spirit of ſlumber</hi> [inſtead of <hi>made their hearts fat] eyes that they ſhould not ſee, ears that they ſhould not hear;</hi> with <hi>S. John</hi> and the He<g ref="char:EOLhyphen"/>brew, attributing the Act to God. So that (to note this by the bye, though not to bring it into ac<g ref="char:EOLhyphen"/>count) in one and the ſame place ſix times produced in the New Teſtament, there ſeems twice a new Verſion clearly made, <hi>viz.</hi> by <hi>S. John</hi> one, and by <hi>S. Paul</hi> an<g ref="char:EOLhyphen"/>other: Twice is the Old Septua<g ref="char:EOLhyphen"/>gint followed by <hi>S. Matthew,</hi> and <hi>S. Luke</hi> in the Acts; but alſo twice again varied in a good part, the very ſame Evangeliſt in terms va<g ref="char:EOLhyphen"/>rying from himſelf; All, an am<g ref="char:EOLhyphen"/>ple proof of the Latitude, which is to be acknowledged in theſe Authors ſtiles.</p>
+               <p>In the xv. of <hi>S. John, ver.</hi> 25. there is a tranſient and occaſional
+<pb n="118" facs="tcp:40530:67"/> alluſion to an expreſſion <hi>Pſalm</hi> xxxv. 19. And though I might reaſonably ſay, the Evangeliſt here ſeems rather to have fol<g ref="char:EOLhyphen"/>lowed ſome other Verſion, or reading, than that of the Septua<g ref="char:EOLhyphen"/>gint (for he produces the text as an intire Propoſition, with a cau<g ref="char:EOLhyphen"/>ſal particle in its beginning, as connecting it with what, in the Original context, is ſuppoſed to have gone before, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> whereas it is only the ſub<g ref="char:EOLhyphen"/>ject of a Propoſition, or rather of a Petition, both in our Septua<g ref="char:EOLhyphen"/>gint and Hebrew) though I might, I ſay, take notice of this difference, yet I wave it, and as the <hi>Eighth</hi> Teſtimony produced by <hi>S. John,</hi> reckon that out of <hi>Pſal.</hi> xxii. 29. touching the <hi>ſouldiers dividing</hi> our Lord's <hi>garments a<g ref="char:EOLhyphen"/>mongſt them, and caſting lots upon
+<pb n="119" facs="tcp:40530:67"/> his ſeamleſs coat,</hi> alledged <hi>Chap.</hi> xix. 24. wherein all agree. <label type="milestone">
+                     <seg type="milestoneunit">C C. </seg>
+                  </label>
+               </p>
+               <p>Reckoning as we have done, the Ninth Old Teſtament-text, I obſerve, alledged by <hi>S. John</hi> is <hi>Chap.</hi> xix. 36. which whether ta<g ref="char:EOLhyphen"/>ken out of <hi>Exod.</hi> xii. 36. or <hi>Num.</hi> ix. 2. varies conſiderably both in phraſe and ſenſe. <hi>Ye ſhall not break a bone from off it,</hi> in the for<g ref="char:EOLhyphen"/>mer place: <hi>They ſhall not break a bone from off it,</hi> in the latter: But <hi>S. John</hi> has it, <hi>a bone of him</hi> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> [or <hi>of it, viz.</hi> of the Paſſeover, a Figure of Chriſt crucified] <hi>ſhall not be broken.</hi> I ought not to wave this difference.</p>
+               <p>The laſt paſſage I have ob<g ref="char:EOLhyphen"/>ſerved <hi>S. John</hi> to produce out of the Old Teſtament, is <hi>Zechariah,</hi> xii. 10. which in the Hebrew ſtands exactly as we have it tranſlated to us, <hi>They ſhall look upon me</hi>
+                  <pb n="120" facs="tcp:40530:68"/>
+[or, <hi>to me] whom they have pierced.</hi> And <hi>S. John</hi> only vary<g ref="char:EOLhyphen"/>ing the perſon of the object, re<g ref="char:EOLhyphen"/>ports it, <hi>Chap.</hi> xix. 37. <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>
+                  </label> 
+                  <hi>They ſhall look on him whom they have pierced.</hi> But the Septuagint moſt ſtrange<g ref="char:EOLhyphen"/>ly, indeed ſo, as not without difficulty to be reconciled with ſenſe. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> [even here<g ref="char:EOLhyphen"/>in not with <hi>S. John,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <label type="milestone">
+                     <seg type="milestoneunit">† </seg>
+                  </label> Words of moſt ambiguous meaning, where<g ref="char:EOLhyphen"/>as the Original is moſt expreſs and plain: But put what ſenſe we can upon them, nothing can well be more foreign from the Original Prophecy and the E<g ref="char:EOLhyphen"/>vangeliſts purpoſe, than they are. Some render them, <hi>They ſhall look upon me, for that they have inſulted.</hi> But why <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>for that?</hi> If we will retain that ſig<g ref="char:EOLhyphen"/>nification of the Verb, the tran<g ref="char:EOLhyphen"/>ſlation
+<pb n="121" facs="tcp:40530:68"/> would be better, <hi>for thoſe things wherein they have inſulted,</hi> or, <hi>for thoſe perſons, over whom they have inſulted:</hi> Either is more natural than the firſt. However, this text was not produced as a Prophecy of the <hi>Jews</hi> inſulting over, or ſcoffing at, the <hi>Meſſias,</hi> but of their piercing him. And indeed the Authors of this tran<g ref="char:EOLhyphen"/>ſlation ſeem not to have under<g ref="char:EOLhyphen"/>ſtood the text of the <hi>Meſſias</hi> at all. For if we follow, what ſome men tell us is the beſt Edition of the Septuagint, it is not ſaid therein, <hi>they ſhall mourn over him,</hi> but <hi>over themſelves.</hi> Beſides, give me leave to offer an old conjecture of the ground of all this miſin<g ref="char:EOLhyphen"/>terpretation. The Interpreters read undoubtedly <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>They danced</hi> [or <hi>wantonly skipped,</hi> like Rams, as the word is uſed, <hi>Pſalm</hi>
+                  <pb n="122" facs="tcp:40530:69" rendition="simple:additions"/> cxiv. 4.] for <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>They pierced.</hi> How eaſie the miſtake is, any one that knows the Hebrew letters, may ſee. And ſo reading it, they could not have better tranſlated it than as they did, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> For though <hi>Hezekias</hi> render <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> only by <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> [<hi>they rejoiced againſt</hi>] and <hi>Sui<g ref="char:EOLhyphen"/>das</hi> adds only <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> [<hi>they mock<g ref="char:EOLhyphen"/>ed</hi>] both which together may make up, <hi>They inſulted;</hi> yet is none of theſe the proper, much leſs the only, ſignification of that word. <hi>Budaeus,</hi> a perſon of better judgment and accu<g ref="char:EOLhyphen"/>racy, who alſo brings ever fair Vouchers for what he ſays, proves <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> is to <hi>Dance deliciouſly</hi> to the pleaſing and tranſport of the Spectators, or elſe <hi>Mimically and reproachfully.</hi> The former of theſe I take to
+<pb n="123" facs="tcp:40530:69"/> have been deſigned by the In<g ref="char:EOLhyphen"/>terpreters, as being the more uſual ſignification of the word. The Jewiſh Doctors, we muſt know, have a ſaying, that in all the Plagues which befel their Na<g ref="char:EOLhyphen"/>tion, ſince their forefathers guilt in the matter of the Golden Calf, there are ſtill ſome grains of the Aſhes of that Calf in them. Now I verily believe, the Inter<g ref="char:EOLhyphen"/>preters, in the rendring this text, reflected upon thoſe Idolatrous ſports of the old <hi>Jews</hi> (as being leavened with the aforeſaid Do<g ref="char:EOLhyphen"/>ctrine) and underſtood it to be a Prophecy of a deep National humiliation for that National ſin in the Wilderneſs, <hi>Exod.</hi> xxxii. Thus then I judge their Greek text here ought to be rendred, <hi>They ſhall look upon me for what they Danced,</hi> that is, for their
+<pb n="124" facs="tcp:40530:70"/> Lewd dancing, and voluptuous ſports and ſolemnities before their Idol, when they held that Feaſt, wherein <hi>They ſat down to eat and drink, and roſe up to play.</hi> And thus we have a Prophecy of the <hi>Jews</hi> repentance, for Cruci<g ref="char:EOLhyphen"/>fying the <hi>Meſſiah,</hi> perverted to the occaſion (as I conceive) of the Golden Calf, by the miſ<g ref="char:EOLhyphen"/>reading of the Interpreters. Miſ<g ref="char:EOLhyphen"/>reading, I ſaid; for that they did herein miſinterpret is plain, elſe S. <hi>John</hi> miſinterprets; and I think no better account can be given of their miſinterpreting, than that which I have ſuppoſed, from S. <hi>Hierom,</hi> of their miſread<g ref="char:EOLhyphen"/>ing. But if any will make better ſenſe of their text, I ſhall be glad to hear it. I am ſure if any text, which ſo peculiarly touches the proof of Chriſtianity as this
+<pb n="125" facs="tcp:40530:70"/> does, had been ſo awkwardly read in the Hebrew, we ſhould have heard largely of Rabbinical corruptions, and malicious frauds of the Modern <hi>Jews.</hi>
+               </p>
+               <p>But it is time to ſumm up our account here alſo. Of Ten Texts, which are all this Evangeliſt has (as far as I have obſerved) of any tolerable length, whence to judge of a tranſlation; <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>6</label> of ten, I ſay, he leaves the Septuagints tranſlation in ſix: and in four of theſe ſix, <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>4</label> takes the liberty we have aſſerted, of departing from the ſtrict expreſſions as well of Hebrew as Septuagint. In the other four texts, indeed he fol<g ref="char:EOLhyphen"/>lows both Hebrew and Septua<g ref="char:EOLhyphen"/>gint. <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>4</label> But there is not any one inſtance, I have been-able to ob<g ref="char:EOLhyphen"/>ſerve, in this Evangeliſt, where<g ref="char:EOLhyphen"/>in he follows the Septuagint
+<pb n="126" facs="tcp:40530:71"/> alone, that is, receding from the Hebrew Original text. Where<g ref="char:EOLhyphen"/>fore I conceive both the Propo<g ref="char:EOLhyphen"/>ſitions again evidenced by theſe deductions out of S. <hi>John.</hi>
+               </p>
+            </div>
+            <div n="6" type="chapter">
+               <head>
+                  <hi>CHAP. VI.</hi> The Summ of all the Accounts.</head>
+               <p>TO draw all the Accounts now into one. Of forty Texts out of the Old Teſtament, the Evangeliſts have clearly de<g ref="char:EOLhyphen"/>parted from the Septuagint and tranſlated a-new in twenty two; <label type="milestone">
+                     <seg type="milestoneunit">A. </seg>22</label> generally keeping cloſer to the He<g ref="char:EOLhyphen"/>brew than the Septuagint does.</p>
+               <pb n="127" facs="tcp:40530:71"/>
+               <p>In diverſe of theſe Twenty two, as well as in others parti<g ref="char:EOLhyphen"/>cularly notified, to the number of Eighteen in all, they have <label type="milestone">
+                     <seg type="milestoneunit">B. </seg>18</label> taken the Latitude we aſſerted, varying from the expreſſion of the Hebrew, as well as of the Septuagint, and contenting them<g ref="char:EOLhyphen"/>ſelves to report the general ſenſe of the Teſtimonies they pro<g ref="char:EOLhyphen"/>duce.</p>
+               <p>Which Summ of Inſtances be<g ref="char:EOLhyphen"/>ing found, within ſo ſmall a compaſs, amply proves both the Propoſitions above aſſer<g ref="char:EOLhyphen"/>ted, but not needful here to be repeated.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">CC. </seg>14</label> Further it appears, there are Fourteen texts of the Forty, wherein Hebrew, Septuagint, and Evangeliſts all accord.</p>
+               <p>Again, There are Four in which the Evangeliſts have fol<g ref="char:EOLhyphen"/>lowed
+<pb n="128" facs="tcp:40530:72"/> the Septuagint, ſingly <label type="milestone">
+                     <seg type="milestoneunit">C. </seg>4</label> at leaſt, as to ſome expreſſion, or expreſſions, which are not, or ſeem not to be in the Hebrew: which expreſſions that it may ap<g ref="char:EOLhyphen"/>pear juſtly of what moment they are, though they are before ſet down a-part, and as they did oc<g ref="char:EOLhyphen"/>curr, yet I will here repeat them together.</p>
+               <q>
+                  <bibl>
+                     <hi>Matt.</hi> iv. 10.</bibl> 
+                  <hi>Him [only] ſhalt thou ſerve.</hi>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Mark</hi> vii. 7.</bibl> [<hi>Howbeit, in vain do they worſhip me, teaching commandments of men, and Do<g ref="char:EOLhyphen"/>ctrines.</hi> Sept. <hi>Teaching for Do<g ref="char:EOLhyphen"/>ctrines the commandment of men. Mark</hi>] This is only thus far virtually in the Hebrew Text. <hi>Their fear towards me is taught by the precept of men. [in vain do they worſhip me</hi>] is an Addition of the Septua<g ref="char:EOLhyphen"/>gint,
+<pb n="129" facs="tcp:40530:72" rendition="simple:additions"/> not in the Hebrew, crept in by miſ-reading, though a<g ref="char:EOLhyphen"/>greeable enough to the ſcope of the text: but followed by S. <hi>Matthew,</hi> as well as <hi>Mark.</hi>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Mark</hi> x. 8.</bibl> 
+                  <hi>They [two] ſhall be one fleſh.</hi>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Luke</hi> iv. 18.</bibl> 
+                  <hi>Recovery of ſight to the blind.</hi> This is virtually in the Hebrew. For <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which we render <hi>opening,</hi> ſignifies properly the <hi>opening of the eyes,</hi> or <hi>ears,</hi> (as before ſaid) in which, ſay the Hebrew Cri<g ref="char:EOLhyphen"/>ticks, it differs from <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which ſignifies the <hi>opening of the mouth:</hi> but S. <hi>Luke,</hi> as we have ſeen, to be ſure of ex<g ref="char:EOLhyphen"/>preſſing the full Hebrew ſenſe, both takes the reſtrain<g ref="char:EOLhyphen"/>ed tranſlation of the Septua<g ref="char:EOLhyphen"/>gint, which would emphati<g ref="char:EOLhyphen"/>cally touch ſome of our
+<pb n="130" facs="tcp:40530:73"/> Lord's Miracles, and adds a more general one of his own. For we found he there re<g ref="char:EOLhyphen"/>ceded from the Septuagints, as well as they from the He<g ref="char:EOLhyphen"/>brew expreſſions. Thus far then, only, in theſe forty Texts, the Evangeliſts have departed from the Hebrew, to hold with the Vulgar Greek Tranſlation then in the hand of the Greciſing <hi>Jews.</hi>
+               </q>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">† </seg>5</label> Laſtly, There are five Texts of the number of thoſe, wherein the Evangeliſts have left the Sep<g ref="char:EOLhyphen"/>tuagint clearly, and held with the Hebrew, in which the Sep<g ref="char:EOLhyphen"/>tuagint have ſo diſtorted or per<g ref="char:EOLhyphen"/>verted the ſenſe, that had the Evan<g ref="char:EOLhyphen"/>geliſts reported them, as the Sep<g ref="char:EOLhyphen"/>tuagint rendred them, they would
+<pb n="131" facs="tcp:40530:73"/> have proved Teſtimonies rather againſt the Truth than for it. At leaſt there would have been ſo many Teſtimonies loſt. It would be too tedious here to re<g ref="char:EOLhyphen"/>peat them.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>
+                  <hi>CHAP. VII.</hi> Obſervations upon the former Ac<g ref="char:EOLhyphen"/>count, and the Concluſion.</head>
+               <p>AND now things ly thus be<g ref="char:EOLhyphen"/>fore us, a man would think we might be able to ſee in a manner into the depth of this mighty pretended accord of the Evangeliſts, ſo peculiarly, with
+<pb n="132" facs="tcp:40530:74"/> the Septuagint, and what Au<g ref="char:EOLhyphen"/>thority it derives to the Septua<g ref="char:EOLhyphen"/>gint, or detracts from the He<g ref="char:EOLhyphen"/>brew: In which, that we may proceed with as clear and de<g ref="char:EOLhyphen"/>monſtrative evidence as we can, let me premit, by way of <hi>PO<g ref="char:EOLhyphen"/>ST<g ref="char:V">Ʋ</g>LATA,</hi> what I think all the world cannot deny.</p>
+               <p n="1">I. Foraſmuch as it cannot be reputed a meerly caſual and ac<g ref="char:EOLhyphen"/>cidental Act in the Evangeliſts, that they thus or thus report any Text out of the Old Teſta<g ref="char:EOLhyphen"/>ment; therefore their receding from, or agreeing with the Sep<g ref="char:EOLhyphen"/>tuagint, was with deſign, or an Act of deliberation and choice.</p>
+               <p n="2">II. Their great deſign in Alle<g ref="char:EOLhyphen"/>gation of Teſtimonies out of the Old Teſtament, being to aſſert and prove Chriſtian Truth, eſpe<g ref="char:EOLhyphen"/>cially to the <hi>Jews,</hi> therefore as
+<pb n="133" facs="tcp:40530:74"/> it was rational when they ſaw any Emphaſis or Advantage more in the Septuagint, than in the Hebrew (becauſe the Sep<g ref="char:EOLhyphen"/>tuagint was commonly known, and ſacredly received by the Jews) to uſe it as an <hi>Argumen<g ref="char:EOLhyphen"/>tum ad homines,</hi> to their purpoſe: ſo if at any time we find the He<g ref="char:EOLhyphen"/>brew text to ſerve more to their purpoſe than the Septuagint, and them to have followed the He<g ref="char:EOLhyphen"/>brew text, leaving the Septua<g ref="char:EOLhyphen"/>gint, we cannot but conclude in ſuch caſe they deſignedly left the Septuagint, as leſs comporting with the Chriſtian Truth, and kept to the Hebrew, as being therein more firm and favourable to Chriſtianity.</p>
+               <p>Now from hence it muſt fol<g ref="char:EOLhyphen"/>low (which I advance as my
+<pb n="134" facs="tcp:40530:75"/> Firſt Propoſition, in order to making a clear eſtimate of the Accord of the Evangeliſts and Apoſtles with the Septuagin<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and ſo of the Authority as well of the Hebrew text, and the Tran<g ref="char:EOLhyphen"/>ſlations from it, as of the Septua<g ref="char:EOLhyphen"/>gints Verſion.) From hence, I ſay, it muſt follow, that where the Hebrew text and the Septua<g ref="char:EOLhyphen"/>gints perfectly agreeing, the E<g ref="char:EOLhyphen"/>vangeliſts keep to the Septuagint, for as much as it appears by what was laſt premitted, they would not have kept thereto, had the He<g ref="char:EOLhyphen"/>brew made more for their pur<g ref="char:EOLhyphen"/>poſe; that therefore it is not the Septuagint, abſolutely, which is in ſuch caſe obſerved or kept to, but the Septuagint as agreeing with the Hebrew. That is, the Evangeliſts in thoſe fourteen Texts, wherein they agree both
+<pb n="135" facs="tcp:40530:75"/> with Hebrew and Septuagint, principally eyed the Hebrew as moſt Authentick, that is, the Hebrew is principally Authen<g ref="char:EOLhyphen"/>tick.</p>
+               <p>Secondly, I ſay further, whe<g ref="char:EOLhyphen"/>ther the Evangeliſts accord with the Septuagint, or tranſlate a<g ref="char:EOLhyphen"/>new from the Hebrew, they ge<g ref="char:EOLhyphen"/>nerally confirm the Hebrew text, as Original and Authentick. For of the Forty texts above exami<g ref="char:EOLhyphen"/>ned, there are 22. in which the Evangeliſts having left the Sep<g ref="char:EOLhyphen"/>tuagint, and either in exact ex<g ref="char:EOLhyphen"/>preſſion, or in general ſenſe, or in both, kept to the Hebrew, have confirmed the Hebrew <hi>againſt</hi> the Septuagint. And there are 14. in which the Septuagint agreeing with the Hebrew, it comes to paſs that the Evangeliſts
+<pb n="136" facs="tcp:40530:76"/> agree with both: in which there<g ref="char:EOLhyphen"/>fore the Evangeliſts have con<g ref="char:EOLhyphen"/>firmed the Hebrew <hi>with</hi> the Sep<g ref="char:EOLhyphen"/>tuagint. That is, in 36. Texts of forty; that is, generally, the Evangeliſts rendring confirms the Hebrew.</p>
+               <p>Thirdly, I fear not to advance further, and ſay, the Evangeliſts agreement or accord with the Septuagint, yea, even wherein the Septuagint ſeem to go by them<g ref="char:EOLhyphen"/>ſelves, without or from the He<g ref="char:EOLhyphen"/>brew, does not take off the Au<g ref="char:EOLhyphen"/>thority of the Hebrew in thoſe very Texts. For in two of them, <hi>viz. Matth.</hi> iv. 10. and <hi>Mark</hi> x. 8. There are only two new Em<g ref="char:EOLhyphen"/>phaſes, as I may call them, added to the old Text. And in the other two, namely in <hi>Mark</hi> vii. 7. and <hi>Luke</hi> iv. 18. as, in the former,
+<pb n="137" facs="tcp:40530:76"/> there was one word, <hi>viz.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which was eaſily miſ-read <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and ſo miſ-rendred, (yet not ſo as to alter the main ſenſe or ſcope of the Text) ſo in the other, there was a word capable of two ſenſes; Now S. <hi>Luke</hi> gives both, one from the Septuagint, another of his own accord. But as he who makes any argument fuller and clearer, by varying the terms, ſtill keeping to the main ſenſe, or by unfolding all the force which a word of manifold ſignification bears, or be inſerting ſome new Emphatical term, which ſhall more preſs the Adverſary, takes not off the Validity of that Ar<g ref="char:EOLhyphen"/>gument; ſo neither doth the E<g ref="char:EOLhyphen"/>vangeliſts thus uſing or manage<g ref="char:EOLhyphen"/>ing Texts of the Old Teſtament, with all the Emphaſes, which ei<g ref="char:EOLhyphen"/>ther by the Septuagints or their
+<pb n="138" facs="tcp:40530:77"/> own rendring them, at all de<g ref="char:EOLhyphen"/>tract from the Original Hebrew, which both only improve. Had the Septuagint contradicted the Hebrew, and the Evangeliſts, in ſuch contradictions, kept with them, the caſe had been other<g ref="char:EOLhyphen"/>wiſe. But the main Doctrine and ſenſe being the ſame ſtill, by this following the Septuagint, there is no impeachment at all of the Hebrew.</p>
+               <p>Fourthly, On the other ſide, I do and muſt affirm, the Septua<g ref="char:EOLhyphen"/>gints receding from the Original Hebrew does derogate from the authority of the Septuagint. For, (1.) It is plain the Evangeliſts, in the inſtances brought, generally leave the Septuagint, where they leave the Hebrew. Now as the Evangeliſts uſe of the Septuagint,
+<pb n="139" facs="tcp:40530:77"/> is the great Mean which conci<g ref="char:EOLhyphen"/>liates Authority to the Septuagint; ſo their departing from the Sep<g ref="char:EOLhyphen"/>tuagints Verſion, to keep with the Hebrew, derogates. (2.) It appears, by the deduction of Par<g ref="char:EOLhyphen"/>ticulars, that the preſent Verſion of the Septuagint hath in forty Teſtimonies out of the Old Teſta<g ref="char:EOLhyphen"/>ment perverted five important (and ſome of the moſt conſider<g ref="char:EOLhyphen"/>able) Prophecies, relating to the proof, that Jeſus Chriſt is the true Meſſias. A greater deroga<g ref="char:EOLhyphen"/>tion from its authority cannot be conceived, except in multiplying inſtances of that kind.</p>
+               <p>Fifthly, The proof of Chriſti<g ref="char:EOLhyphen"/>anity more relies upon the He<g ref="char:EOLhyphen"/>brew Text, than on the Septua<g ref="char:EOLhyphen"/>gints Verſion. For it appears, the Evangeliſts, who deliver the
+<pb n="140" facs="tcp:40530:78"/> Doctrine thereof unto us, make more uſe of the Hebrew Text; diverſe Prophecies, by the Septua<g ref="char:EOLhyphen"/>gint diſtorted and mangled, are in the Hebrew intire and direct to our purpoſe; and though we ſhould ſuppoſe, as verily I believe, that the Evangeliſts being to write in Greek, did, to render their writings more unexception<g ref="char:EOLhyphen"/>able to the <hi>Jews,</hi> follow, as much as they could, the <hi>Jews</hi> Greek Tranſlation, that is, the Septua<g ref="char:EOLhyphen"/>gint; yet we find in ſeveral Pro<g ref="char:EOLhyphen"/>phecies of the greateſt moment, as well as in other points, they could not follow them, and be true to their own Cauſe.</p>
+               <p>Sixthly, It does not appear by any thing we have examined, that any corruption, or the leaſt eſcape, can be affixt to the He<g ref="char:EOLhyphen"/>brew
+<pb n="141" facs="tcp:40530:78"/> text. It marvelouſly com<g ref="char:EOLhyphen"/>ports with the Evangeliſts Greek. As to the great objection from <hi>Pſalm</hi> xxii. 16. that we have there <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>As a Lion,</hi> for <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>they pierced,</hi> in which, ſay they, the Septuagint has ſet us right: be<g ref="char:EOLhyphen"/>ſides that, even <hi>P. Simon</hi> himſelf, in his late Diſquiſitions, confeſſes <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> is in the very Text, or is the <hi>Ketib</hi> in ſome antient Copies, 'tis enough to me if it were but the <hi>Keri,</hi> or Marginal reading. But I think more cannot be deſired for ſatisfaction, and in ample vindi<g ref="char:EOLhyphen"/>cation of the Hebrew, than the great Dr. <hi>Hammond</hi> has given us upon that Pſalm.</p>
+               <p>Laſtly, In the Septuagints Ver<g ref="char:EOLhyphen"/>ſion it is apparent, there muſt be acknowledged groſs Errours. Five places are above marked and
+<pb n="142" facs="tcp:40530:79"/> aſſigned, where we muſt ſay, ei<g ref="char:EOLhyphen"/>ther the Evangeliſts have erred, or the Septuagint: and I have found no one yet ſo hardy as to caſt the Errours on the Evange<g ref="char:EOLhyphen"/>liſts, <hi>ergo, &amp;c.</hi>
+               </p>
+               <p>Thoſe, whom what I have ſaid, may a little ſurpriſe, finding things thus notoriouſly otherwiſe than ſome have aſſerted, and haply themſelves too thought, may be ready to ask, what thoſe Aſſerters have to ſay for them<g ref="char:EOLhyphen"/>ſelves in caſe of theſe, and ſuch other Prophecies, thus being per<g ref="char:EOLhyphen"/>verted rather than tranſlated.</p>
+               <p>My deſign permits me not to take notice of all: Let it ſuffice to repreſent and animadvert upon their chief anſwers. <hi rend="margQuotes">It is not to be denyed, ſay ſome of them, but that the books of the Sep<g ref="char:EOLhyphen"/>tuagint are in many places [<hi>In<g ref="char:EOLhyphen"/>quinati
+<pb n="143" facs="tcp:40530:79"/> &amp; interpolati</hi>] corrupted and vampt with the Verſions of <hi>Symmachus, Theodotion, &amp;c.</hi>
+                  </hi> At another time, <hi>Septuaginta In<g ref="char:EOLhyphen"/>terpretes ſic vertiſſe ſtultum eſt ex<g ref="char:EOLhyphen"/>iſtimare.</hi> 
+                  <hi rend="margQuotes">'Tis a ſilly thing to imagine the Seventy thus ren<g ref="char:EOLhyphen"/>dred.</hi> And as to that very Pro<g ref="char:EOLhyphen"/>phecy of <hi>Zech.</hi> xii. <hi rend="margQuotes">Whether theſe Errours came in, out of <hi>Aquila, &amp;c.</hi> or any other, or by caſual miſreading, 'tis needleſs to enquire. It is enough to ſay, the Septuagint undoubtedly rendred it otherwiſe.</hi>
+               </p>
+               <p>Theſe anſwers, or defences, are perhaps more wonderful than the firſt aſſertions. The Septuagint, ſay they, did not tranſlate thus, 'Tis a ſilly thing to think they did. But the beſt Copies of the Septuagint, extant, do contain and exhibit theſe Tranſlations.
+<pb n="144" facs="tcp:40530:80"/> In S. <hi>Jerom</hi>'s days the Septuagints Verſion had <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, or <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Hieronym. in loc.</hi> They who at this time of day ſhall con<g ref="char:EOLhyphen"/>tradict S. <hi>Jerome,</hi> and ſay, he had only <hi>vitiatum &amp; interpolatum Co<g ref="char:EOLhyphen"/>dicem,</hi> a corrupt and interlined book, when he elſewhere tells us he had <hi>Origen's Hexapla</hi> corrected by himſelf according to the beſt Copy; They, who to boot, ſhall, when they liſt, that is, when they are not able to defend the Sep<g ref="char:EOLhyphen"/>tuagints Verſion, reject all the Copies of that Verſion which paſſes every where for the Sep<g ref="char:EOLhyphen"/>tuagints, and ſay, 'tis a ſilly thing to believe in this or that, it is the Septuagints, when in another breath, they ſhall cry up the very worſt Copy of the Septua<g ref="char:EOLhyphen"/>gint, far above all other Tran<g ref="char:EOLhyphen"/>ſlations, and even the Original it
+<pb n="145" facs="tcp:40530:80"/> ſelf, are indeed perſons to be ad<g ref="char:EOLhyphen"/>mired, but I will not ſay, for what. Only I will deſire them, if they expect to be believed, to bring better Proofs than they have done, that is, than their own Word and Scorn.</p>
+               <p>But to wave what I might ſay more largely of this nature, I on<g ref="char:EOLhyphen"/>ly reply, I accept the Anſwer. Behold then, good Reader, how excellently we are helpt up by thoſe, who reject the Hebrew text, and all Tranſlations from it. What, will they reject all Scri<g ref="char:EOLhyphen"/>pture? ſome of them would be at that, if they durſt; but they 'I tell you, By no means. What then will they ſet up inſtead of the Hebrew? The Septuagints Verſion. Who now would not expect, that this were moſt per<g ref="char:EOLhyphen"/>fect, ſubject to no various read<g ref="char:EOLhyphen"/>ings,
+<pb n="146" facs="tcp:40530:81"/> much leſs corruptions or interpolations. No ſuch matter; beſides infinite various readings, theſe books are corrupted in many places, interpolate with the Verſions of <hi>Symmachus, Theodotion, Aquila,</hi> and God knows what o<g ref="char:EOLhyphen"/>thers. This is their own con<g ref="char:EOLhyphen"/>feſſion. Again, they are Books, which they will deny at their own pleaſure. Laſtly, Books, which if we will believe the Holy Evangeliſts, have in them many groſs Errours, inconſiſtent with the very Hiſtory, as well as Do<g ref="char:EOLhyphen"/>ctrine, of the Goſpel, and which, as has been proved, the Evange<g ref="char:EOLhyphen"/>liſts could not have followed, and together have been faithful to their Cauſe.</p>
+               <p>To conclude all: We have ſeen the Aſſertion of a <hi>perpetual,</hi> or even <hi>general Agreement</hi> of the
+<pb n="147" facs="tcp:40530:81"/> 
+                  <hi>Pen-men of the New Teſtament with the Septuagint</hi> to be groundleſs and falſe: boldly advanced by ſome, and too credulouſly taken up by others. (S. <hi>Paul</hi> perhaps, a Perſon more converſant with the <hi>Helleniſts,</hi> moſtly uſed the Septuagint, though not conſtant<g ref="char:EOLhyphen"/>ly: others much leſs.) Contrarily to the aforementioned Aſſertion, The <hi>preſent Hebrew text is confirm<g ref="char:EOLhyphen"/>ed by the Evangeliſts Verſions and agreement with it;</hi> it is <hi>not im<g ref="char:EOLhyphen"/>peached by their very receſſions</hi> or ſiding with the Septuagint: it ſtands therefore above blemiſh. The <hi>Text of the Septuagint,</hi> beſides its diſorders, confuſions and mu<g ref="char:EOLhyphen"/>tilations (which we might have ſaid much more of) <hi>departs many times groſly from the truth:</hi> It is indeed the Antienteſt and moſt honourable Verſion; it
+<pb n="148" facs="tcp:40530:82"/> gives excellent light and confir<g ref="char:EOLhyphen"/>mation in moſt things to the truth, but it is many times, as ſaid, unhappy. Perhaps it has been purer than it is; yet above theſe thirteen hundred years, it is ſure, it has had ſome of thoſe groſs Errours in it, which we find at this day remaining; and we cannot always hold to it, and to<g ref="char:EOLhyphen"/>gether hold to the Goſpe. The proof of Chriſtianity chiefly, and in ſome points (as to Teſtimony) ſolely relies on the Hebrew Text; In which, by all thoſe paſſages, which have been examined, it does not appear that there is any defect, errour, or ſo much as ra<g ref="char:EOLhyphen"/>tional pretence of any deprava<g ref="char:EOLhyphen"/>tion.</p>
+               <p>Upon the whole then it re<g ref="char:EOLhyphen"/>mains, That we <hi>adore and magnifie the Providence of our good God,</hi> in
+<pb n="149" facs="tcp:40530:82"/> 
+                  <hi>reſtoring</hi> to loſt mankind in ge<g ref="char:EOLhyphen"/>neral, <hi>the knowledge of God and themſelves,</hi> when they had extin<g ref="char:EOLhyphen"/>guiſht that given by natural Rea<g ref="char:EOLhyphen"/>ſon, in <hi>preſerving</hi> to us in parti<g ref="char:EOLhyphen"/>cular, the <hi>Original Oracles of Sal<g ref="char:EOLhyphen"/>vation</hi> ſo intire as we ſee they are, in <hi>raiſing up to us Perſons</hi> ſo ex<g ref="char:EOLhyphen"/>quiſitely <hi>skilled and verſt in them,</hi> as of old, ſo eſpecially within theſe two laſt Centuries, by whoſe indefatigable labours we have many admirable <hi>Tranſlations</hi> of thoſe Oracles into the <hi>common ſpeech of each Nation;</hi> to none of which Tranſlations, bleſſed be the ſame good God, is our laſt <hi>Engliſh</hi> one inferiour: That there<g ref="char:EOLhyphen"/>fore we <hi>keep cloſe to theſe,</hi> and ſtand <hi>unſhaken in our Faith,</hi> not ſuffering our ſelves to be impoſed upon by the Cavils, and ſubtle Sophiſms of ſome, or the ſpecious
+<pb n="150" facs="tcp:40530:83"/> pretences, of more Neceſſaries than we find in Scripture, from others; nor laſtly, by a third ſorts pompous oſtentation of Learning. Truly, theſe laſt ſeem to have written, only to ſhew the World, how plauſibly they can maintain the moſt miſchie<g ref="char:EOLhyphen"/>vous Paradoxes.</p>
+               <p>I had many more things to have ſaid: eſpecially, as to that objection of the loſs of the true old Hebrew ſpeech. I could ſhew, the ſame pretences of reaſon may be brought for the loſs of the old Greek, nay, even of the old Latin it ſelf. In all <hi>dead Tongues</hi> the true antient Pronunciation, in proceſs of time, muſt needs be loſt; often alſo the firſt, and true ſignification of many words, whence words muſt neceſſarily grow equivocal or ambiguous, <hi>&amp;c.</hi>
+                  <pb n="151" facs="tcp:40530:83"/> Now it would be thought very extravagant to ſay upon theſe reaſons, the old Greek and Latin are both loſt. We dote if we ſay we have either. Let the ſame Plea be admitted for the old He<g ref="char:EOLhyphen"/>brew. Theſe and other things I thought once to have diſcours'd of in this <hi>Appendix.</hi> But it is much ſwoln already, and I con<g ref="char:EOLhyphen"/>ceive I have ſaid enough to ſettle ſuch, who may be ſhaken, but are deſirous of ſatisfaction: And as to Scepticks, or men of an In<g ref="char:EOLhyphen"/>veterate Faction, I have not ſuch thoughts of my ſelf, as that I am able to recover them.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="postscript">
+            <pb n="152" facs="tcp:40530:84"/>
+            <head>POST SCRIPT.</head>
+            <p>THESE notes ought to have been written in a Language more befitting Criticiſms of this nature. But the reaſon they ſpeak plain <hi>Engliſh,</hi> is, becauſe they are oppoſed, for the main, to Books, which are made to ſpeak <hi>Engliſh.</hi> More Texts alſo ſhould have been examined, and the ſearch of theſe carried further. Both may be done in time, if God give leiſure, and it appear this Eſſay does any good. In the mean while, the Can<g ref="char:EOLhyphen"/>did Reader will take notice, I deal with the People, whom I thought, next to Truth and Plainneſs, which I have ſacredly obſerved, I could gratifie in no<g ref="char:EOLhyphen"/>thing more than brevity. God bleſs all to the end deſigned.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:40530:84"/>
+         </div>
+      </back>
+   </text>
+</TEI>
